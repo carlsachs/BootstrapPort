@@ -12,7 +12,7 @@ import insta from "./images/insta.png";
 const InstaClone = () => {
 
     return (
-        <Card style={{ width: '20rem' }}>
+        <Card bg="light" style={{ width: '20rem' }}>
             <Card.Img variant="top" src={insta} />
             <Card.Body>
                 <Card.Title>InstaClone</Card.Title>

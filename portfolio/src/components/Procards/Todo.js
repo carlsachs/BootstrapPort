@@ -12,7 +12,7 @@ import todo from "./images/todo.png";
 const Todo = () => {
 
     return (
-        <Card style={{ width: '20rem' }}>
+        <Card bg="light" style={{ width: '20rem' }}>
             <Card.Img variant="top" src={todo} />
             <Card.Body>
                 <Card.Title>Database: To-Do</Card.Title>

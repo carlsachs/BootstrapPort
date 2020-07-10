@@ -12,7 +12,7 @@ import med from "./images/medcabinet.png";
 const MedCabinet = () => {
 
     return (
-        <Card style={{ width: '20rem' }}>
+        <Card bg="light" style={{ width: '20rem' }}>
             <Card.Img variant="top" src={med} />
             <Card.Body>
                 <Card.Title>MedCabinet</Card.Title>

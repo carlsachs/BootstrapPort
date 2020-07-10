@@ -12,7 +12,7 @@ import Dbpic from "./images/db3.png";
 const Db3 = () => {
 
     return (
-        <Card style={{ width: '20rem' }}>
+        <Card bg="light" style={{ width: '20rem' }}>
             <Card.Img variant="top" src={Dbpic} />
             <Card.Body>
                 <Card.Title>Basic Authentication</Card.Title>

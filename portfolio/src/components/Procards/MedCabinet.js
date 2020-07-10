@@ -17,11 +17,11 @@ const MedCabinet = () => {
             <Card.Body>
                 <Card.Title>MedCabinet</Card.Title>
                 <Card.Text>
-                My first build week in React.  I was one of two front-end developers on the team.
+                My first build week in React.  I was a front-end developer on the team.
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
-                <ListGroupItem><b>Role:</b>  Front-End Developer</ListGroupItem>
+                <ListGroupItem><b>Complexity:</b>  Intermediate</ListGroupItem>
                 <ListGroupItem><b>Language:</b>  React Native</ListGroupItem>
                 <ListGroupItem><b>Time Allotted:</b>  3 1/2 Days</ListGroupItem>
             </ListGroup>

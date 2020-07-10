@@ -21,9 +21,9 @@ const InstaClone = () => {
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
-                <ListGroupItem><b>Role:</b>  Developer</ListGroupItem>
+                <ListGroupItem><b>Complexity:</b>  Junior</ListGroupItem>
                 <ListGroupItem><b>Language:</b>  React</ListGroupItem>
-                <ListGroupItem><b>Time Allotted:</b>  Hours</ListGroupItem>
+                <ListGroupItem><b>Time Allotted:</b> 2-3 Hours</ListGroupItem>
             </ListGroup>
             <Card.Body>
                 <Card.Link href="https://github.com/carlsachs/React-Components-Insta-Clone">Repository</Card.Link>

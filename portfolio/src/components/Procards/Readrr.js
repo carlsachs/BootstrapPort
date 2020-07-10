@@ -18,12 +18,12 @@ const Readrr = () => {
             <Card.Body>
                 <Card.Title>Readrr (Featured)</Card.Title>
                 <Card.Text>
-                My Lambda School "thesis".  Goodreads alternative. (Landing page was made 1 hour prior to presentation, just a filler.)
+                My Lambda School "thesis".  Goodreads alternative.
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
-                <ListGroupItem><b>Role:</b>  Front-End Developer</ListGroupItem>
-                <ListGroupItem><b>Language:</b>  React Native</ListGroupItem>
+                <ListGroupItem><b>Complexity:</b>  Advanced</ListGroupItem>
+                <ListGroupItem><b>Language:</b>  React Native/Node</ListGroupItem>
                 <ListGroupItem><b>Time Allotted:</b>  2 Months</ListGroupItem>
             </ListGroup>
             <Card.Body>

@@ -17,11 +17,11 @@ const Todo = () => {
             <Card.Body>
                 <Card.Title>Database: To-Do</Card.Title>
                 <Card.Text>
-                Another one of my back-end projects.  A basic project.
+                Another one of my back-end projects.  A to-do list backend.
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
-                <ListGroupItem><b>Role:</b>  Developer</ListGroupItem>
+                <ListGroupItem><b>Complexity:</b>  Intermediate</ListGroupItem>
                 <ListGroupItem><b>Language:</b>  Node</ListGroupItem>
                 <ListGroupItem><b>Time Allotted:</b>  1 Hour</ListGroupItem>
             </ListGroup>

@@ -12,18 +12,18 @@ import bootwork from "./images/bootwork.png";
 const Bootwork = () => {
 
     return (
-        <Card style={{ width: '20rem' }}>
+        <Card bg="light" style={{ width: '20rem' }}>
             <Card.Img variant="top" src={bootwork} />
             <Card.Body>
                 <Card.Title>BootWork</Card.Title>
                 <Card.Text>
-                One of my many abandoned business ideas.  Connected Junior devs to employers in that market. (Unfinished)
+                Connected Junior devs to employers in that market.(Unfinished)
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
-                <ListGroupItem><b>Role:</b>  Developer</ListGroupItem>
+                <ListGroupItem><b>Complexity:</b>  Advanced</ListGroupItem>
                 <ListGroupItem><b>Language:</b>  Typescript/Redux</ListGroupItem>
-                <ListGroupItem><b>Time Allotted:</b>  1 Months (Nights)</ListGroupItem>
+                <ListGroupItem><b>Time Allotted:</b>  1 Month (Nights)</ListGroupItem>
             </ListGroup>
             <Card.Body>
                 <Card.Link href="https://bootwork.app/">Website</Card.Link>

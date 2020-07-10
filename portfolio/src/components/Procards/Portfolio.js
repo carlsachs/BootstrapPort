@@ -12,7 +12,7 @@ import port from "./images/port.png";
 const Portfolio = () => {
 
     return (
-        <Card style={{ width: '50rem', margin: "0 auto" }}>
+        <Card bg="light" style={{ width: '50rem'}}>
             <Card.Img variant="top" src={port} />
             <Card.Body>
                 <Card.Title>This Very Portfolio</Card.Title>

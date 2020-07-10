@@ -12,7 +12,7 @@ import middle from "./images/middleware.png";
 const Middleware = () => {
 
     return (
-        <Card style={{ width: '20rem' }}>
+        <Card bg="light" style={{ width: '20rem' }}>
             <Card.Img variant="top" src={middle} />
             <Card.Body>
                 <Card.Title>Database: Middleware</Card.Title>

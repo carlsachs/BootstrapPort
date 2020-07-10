@@ -12,7 +12,7 @@ import Db2 from "./images/db4.png";
 const Authentication = () => {
 
     return (
-        <Card style={{ width: '20rem' }}>
+        <Card bg="light" style={{ width: '20rem' }}>
             <Card.Img variant="top" src={Db2} />
             <Card.Body>
                 <Card.Title>Authentication</Card.Title>

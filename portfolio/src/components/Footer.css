@@ -26,6 +26,11 @@
     margin: 0 auto;
 }
 
+.linkcon:hover {
+    opacity: 0.4;
+    transition: 1s;
+}
+
 .twit {
     padding-top: 3%;
     padding-bottom: 3%;
@@ -38,6 +43,11 @@
     margin: 0 auto;
 }
 
+.twitcon:hover {
+    opacity: 0.4;
+    transition: 1s;
+}
+
 .gmail {
     padding-top: 3%;
     padding-bottom: 3%;
@@ -48,4 +58,9 @@
     width: 75px;
     cursor: pointer;
     margin: 0 auto;
+}
+
+.gmail-icon:hover {
+    opacity: 0.4;
+    transition: 1s;
 }

@@ -12,12 +12,12 @@ import bootwork from "./images/bootwork.png";
 const Bootwork = () => {
 
     return (
-        <Card style={{ width: '20rem' }}>
+        <Card bg="light" style={{ width: '20rem' }}>
             <Card.Img variant="top" src={bootwork} />
             <Card.Body>
                 <Card.Title>BootWork</Card.Title>
                 <Card.Text>
-                One of my many abandoned business ideas.  Connected Junior devs to employers in that market. (Unfinished)
+                One of my many abandoned business ideas.  Connected Junior devs to employers in that market.  Will possibly revist. (Unfinished)
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">

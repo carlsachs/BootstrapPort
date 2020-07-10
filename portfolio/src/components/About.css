@@ -1,0 +1,9 @@
+.top-about {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 3.5%;
+    margin-bottom: 3%;
+    background-color: #1890ff;
+    height: 500px;
+}

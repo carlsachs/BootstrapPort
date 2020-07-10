@@ -16,7 +16,7 @@ const About = () => {
     return (
         <Container fluid>
             <Nav1 />
-            <Row className="top-row">
+            <Row className="top-about">
             
             </Row>
         </Container>

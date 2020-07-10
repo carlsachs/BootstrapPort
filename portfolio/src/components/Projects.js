@@ -2,11 +2,18 @@ import React from "react";
 
 //import resources
 import { Link } from "react-router-dom";
-import { Fade, Flip } from "react-reveal";
+import { Fade, Flip, Slide } from "react-reveal";
 
 //other components
 import Readrr from "./Procards/Readrr";
 import Bootwork from "./Procards/Bootwork";
+import MedCabinet from "./Procards/MedCabinet";
+import InstaClone from "./Procards/InstaClone";
+import Middleware from "./Procards/Middleware";
+import Todo from "./Procards/Todo";
+import Db3 from "./Procards/Db3";
+import Authentication from "./Procards/Authentication";
+import Footer from "./Footer";
 
 //images
 import undraw from "./undraw.svg";
@@ -22,7 +29,7 @@ import Nav1 from "./Nav";
 const Projects = () => {
     
     return (
-        <Container fluid>
+        <Container fluid style={{backgroundColor: "aliceblue"}}>
             <Nav1 />
         <Row className="top-proj">
             <Col className="top-left">
@@ -58,85 +65,92 @@ const Projects = () => {
             </Col>
         </Row>
         <Row className="front-top">
-            <div>
-                <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", textAlign: "center"}}>Front end</h2>
-            </div>
+            <Flip bottom>
+                <div>
+                    <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", textAlign: "center"}}>Front End</h2>
+                </div>
+            </Flip>
         </Row>
         <Row className="front-boxes">
+            <Fade bottom>
             <Col>
                 <Readrr />
             </Col>
+            </Fade>
+            <Fade bottom>
             <Col>
                 <Bootwork />
             </Col>
+            </Fade>
+            <Fade bottom>
+            <Col>
+                <MedCabinet />
+            </Col>
+            </Fade>
+            <Fade bottom>
+            <Col>
+                <InstaClone />
+            </Col>
+            </Fade>
         </Row>
+        <Slide left>
+            <Row className="this">
+                <div className="port">
+                    <h2>To view the source code of this very portfolio, click <Link target="_blank" to="https://github.com/carlsachs/BootstrapPort" style={{color: "#69c0ff"}}>here</Link>.</h2>
+                </div>   
+            </Row>
+        </Slide>
+        <Row className="back-top">
+            <Flip bottom>
+                <div>
+                    <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", textAlign: "center"}}>Back End</h2>
+                </div>
+            </Flip>
+        </Row>
+        <Slide right>
+            <Row className="back-boxes">
+                <Col>
+                    <Middleware />
+                </Col>
+                <Col>
+                    <Todo />
+                </Col>
+                <Col>
+                    <Db3 />
+                </Col>
+                <Col>
+                    <Authentication />
+                </Col>
+            </Row>
+        </Slide>
+        <Row className="cs-top">
+            <Flip bottom>
+                <div>
+                    <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", textAlign: "center"}}>Computer Science</h2>
+                </div>
+            </Flip>
+        </Row>
+        <Slide left>
+            <Row className="cs-boxes">
+                <Col>
+                    <Readrr />
+                </Col>
+                <Col>
+                    <Bootwork />
+                </Col>
+                <Col>
+                    <MedCabinet />
+                </Col>
+                <Col>
+                    <InstaClone />
+                </Col>
+            </Row>
+        </Slide>
+        <Slide right>
+            <Footer />
+        </Slide>
         </Container>
     )
 }
 
 export default Projects;
-
-
-// <div className="front-end">
-// <div className="front-top">
-//     <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", width: "20%", margin: "0 auto", textAlign: "center"}}>Front-End</h2>
-// </div>
-// <div className="front-bottom">
-//     <Slide left>
-//         <FE2 />
-//     </Slide>
-//     <Slide right>
-//         <FE3 />
-//     </Slide>
-//     <Slide left>
-//         <FE1 />
-//     </Slide>
-//     <Slide right>
-//         <FE4 />
-//     </Slide>
-//     <Slide left>
-//         <FE5 />
-//     </Slide>
-// </div>
-// </div>
-// <div className="back-end">
-// <div className="back-top">
-//     <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", width: "20%", margin: "0 auto"}}>Back-End</h2>
-// </div>
-// <div className="front-bottom">
-//     <Slide left>
-//         <BE1 />
-//     </Slide>
-//     <Slide right>
-//         <BE2 />
-//     </Slide>
-//     <Slide left>
-//         <BE3 />
-//     </Slide>
-//     <Slide right>
-//         <BE4 />
-//     </Slide>
-// </div>
-// </div>
-// <div className="CS">
-// <div className="CS-top">
-//     <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", width: "20%", margin: "0 auto"}}>Computer Science</h2>
-// </div>
-// <div className="CS-bottom">
-//     <Slide left>
-//         <FE2 />
-//     </Slide>
-//     <Slide right>
-//         <FE3 />
-//     </Slide>
-//     <Slide left>
-//         <FE1 />
-//     </Slide>
-//     <Slide right>
-//         <FE4 />
-//     </Slide>
-//     <Slide left>
-//         <FE5 />
-//     </Slide>
-// </div>
-// </div>

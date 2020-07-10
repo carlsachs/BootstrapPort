@@ -1,0 +1,66 @@
+.footer-wrap {
+    background: #1890ff;
+}
+
+.left {
+    background: #1890ff;
+}
+
+.middle {
+    background: #096dd9;
+}
+
+.right {
+    background: #0050b3;
+}
+
+.linked {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.linkcon {
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.linkcon:hover {
+    opacity: 0.4;
+    transition: 1s;
+}
+
+.twit {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.twitcon {
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.twitcon:hover {
+    opacity: 0.4;
+    transition: 1s;
+}
+
+.gmail {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.gmail-icon {
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.gmail-icon:hover {
+    opacity: 0.4;
+    transition: 1s;
+}

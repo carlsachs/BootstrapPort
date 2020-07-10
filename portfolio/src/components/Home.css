@@ -24,7 +24,7 @@ h1::before,
 h1::after {
   content: attr(carl-label);
   position: absolute;
-  top: 80px;
+  top: 133px;
   left: 0;
   transform: translate(-50%, -50%);
   text-shadow: 0.01em 0.01em 0.01em rgba(0, 0, 0, 0.3);

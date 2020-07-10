@@ -4,6 +4,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Fade, Flip } from "react-reveal";
 
+//other components
+import Readrr from "./Procards/Readrr";
+import Bootwork from "./Procards/Bootwork";
+
 //images
 import undraw from "./undraw.svg";
 
@@ -11,7 +15,7 @@ import undraw from "./undraw.svg";
 import "./Projects.css";
 
 //Bootstrap
-import { Container, Row, Col, Grid } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import Nav1 from "./Nav";
 
@@ -38,9 +42,11 @@ const Projects = () => {
                     </div>
                 </Row>
                 <Row>
-                    <div className="front-mid">
-                        <a target="_blank" href="https://github.com/carlsachs">Follow me on Github</a>
-                    </div>
+                    <Flip top>
+                        <div className="front-mid">
+                            <a target="_blank" href="https://github.com/carlsachs">Follow me on Github</a>
+                        </div>
+                    </Flip>
                 </Row>
             </Col>
             <Col>
@@ -49,6 +55,19 @@ const Projects = () => {
                         <img src={undraw} alt="svg of projects" />
                     </div>
                 </Row>
+            </Col>
+        </Row>
+        <Row className="front-top">
+            <div>
+                <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", textAlign: "center"}}>Front end</h2>
+            </div>
+        </Row>
+        <Row className="front-boxes">
+            <Col>
+                <Readrr />
+            </Col>
+            <Col>
+                <Bootwork />
             </Col>
         </Row>
         </Container>

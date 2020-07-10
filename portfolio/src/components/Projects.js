@@ -29,7 +29,7 @@ import Nav1 from "./Nav";
 const Projects = () => {
     
     return (
-        <Container fluid>
+        <Container fluid style={{backgroundColor: "aliceblue"}}>
             <Nav1 />
         <Row className="top-proj">
             <Col className="top-left">

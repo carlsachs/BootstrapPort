@@ -78,27 +78,31 @@
     background: white;
 }
 
-
-.CS-top {
-    color: #003a8c;
-    text-align: center;
-    margin-top: 2%;
-}
-
 .front-boxes {
     margin-top: 3%;
 }
 
 .this {
     background: #1890ff;
+    margin-top: 3%;
 }
 
 .port {
    margin: 0 auto;
-   margin-top: 2%; 
+   padding: 3%;
    color: white;
 }
 
 .back-boxes {
+    margin-top: 3%;
+}
+
+.cs-top {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.cs-boxes {
     margin-top: 3%;
 }

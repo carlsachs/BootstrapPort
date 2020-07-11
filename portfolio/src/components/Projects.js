@@ -49,7 +49,7 @@ const Projects = () => {
                     </div>
                 </Row>
                     <Col>
-                    <Flip top>
+                    <Flip top delay={850}>
                         <div className="front-mid">
                             <Link target="_blank" to="https://github.com/carlsachs"
                             style={{

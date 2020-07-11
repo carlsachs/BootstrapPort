@@ -34,7 +34,7 @@ const Projects = () => {
         <Row className="top-proj">
             <Col className="top-left">
                 <Fade top>
-                    <Row>
+                    <Row className="pro-title">
                         <h2>Featured Projects</h2>
                     </Row>
                 </Fade>
@@ -48,13 +48,26 @@ const Projects = () => {
                         <h3>Compiled list of my skills <Link style={{textDecoration: "none", color: "white"}} to="/skills">here</Link></h3>
                     </div>
                 </Row>
-                <Row>
+                    <Col>
                     <Flip top>
                         <div className="front-mid">
-                            <a target="_blank" href="https://github.com/carlsachs">Follow me on Github</a>
+                            <Link target="_blank" to="https://github.com/carlsachs"
+                            style={{
+                                width: "80%",
+                                textDecoration: "none",
+                                fontSize: "1.4rem",
+                                color: "#002766",
+                                border: "1px solid aliceblue",
+                                padding: "2%",
+                                borderRadius: "10px",
+                                marginBottom: "4%",
+                                marginTop: "4%"
+
+
+                            }}>Follow me on Github</Link>
                         </div>
                     </Flip>
-                </Row>
+                    </Col>
             </Col>
             <Col>
                 <Row>
@@ -110,16 +123,16 @@ const Projects = () => {
         <Slide right>
             <Row className="back-boxes">
                 <Col>
-                    <Middleware />
-                </Col>
-                <Col>
-                    <Todo />
+                    <Authentication />
                 </Col>
                 <Col>
                     <Db3 />
                 </Col>
                 <Col>
-                    <Authentication />
+                    <Todo />
+                </Col>
+                <Col>
+                <Middleware />
                 </Col>
             </Row>
         </Slide>

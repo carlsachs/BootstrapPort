@@ -1,0 +1,34 @@
+.top-about {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 3.5%;
+    margin-bottom: 3%;
+    background-color: #1890ff;
+    height: 500px;
+}
+
+.top-about h2 {
+    font-size: 4.5rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+.top-about h3 {
+    font-size: 2rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+.name-title {
+    justify-content: center;
+}
+
+.name {
+    justify-content: center;
+    
+}
+
+.title {
+    justify-content: center;
+}

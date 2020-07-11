@@ -17,15 +17,15 @@ const Db3 = () => {
             <Card.Body>
                 <Card.Title>Basic Authentication</Card.Title>
                 <Card.Text>
-                One of my projects highlighting my knowledge of authentication through JWT.
+                One of my projects showing my knowledge of Auth through JWT.
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
-                <ListGroupItem><b>Role:</b>  Developer</ListGroupItem>
-                <ListGroupItem><b>Language:</b>  Node/JWT/Bcrypt</ListGroupItem>
+                <ListGroupItem><b>Complexity:</b>  Advanced</ListGroupItem>
+                <ListGroupItem><b>Language:</b>  Node / JWT / Bcrypt</ListGroupItem>
                 <ListGroupItem><b>Time Allotted:</b>  Few Hours</ListGroupItem>
             </ListGroup>
-            <Card.Body>
+            <Card.Body className="bottom">
                 <Card.Link href="https://github.com/carlsachs/node-auth2-project">Repository</Card.Link>
             </Card.Body>
         </Card>

@@ -13,7 +13,7 @@ import readrr from "./images/readrr.png";
 const Readrr = () => {
 
     return (
-        <Card bg="light" style={{ width: '20rem' }}>
+        <Card bg="light" style={{ width: '20rem'}}>
             <Card.Img variant="top" src={readrr} />
             <Card.Body>
                 <Card.Title>Readrr (Featured)</Card.Title>

@@ -123,16 +123,16 @@ const Projects = () => {
         <Slide right>
             <Row className="back-boxes">
                 <Col>
-                    <Middleware />
-                </Col>
-                <Col>
-                    <Todo />
+                    <Authentication />
                 </Col>
                 <Col>
                     <Db3 />
                 </Col>
                 <Col>
-                    <Authentication />
+                    <Todo />
+                </Col>
+                <Col>
+                <Middleware />
                 </Col>
             </Row>
         </Slide>

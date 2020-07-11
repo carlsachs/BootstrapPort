@@ -25,7 +25,7 @@ const Middleware = () => {
                 <ListGroupItem><b>Language:</b>  Node</ListGroupItem>
                 <ListGroupItem><b>Time Allotted:</b>  1 Hour</ListGroupItem>
             </ListGroup>
-            <Card.Body>
+            <Card.Body className="bottom">
                 <Card.Link href="https://github.com/carlsachs/node-api3-project">Repository</Card.Link>
             </Card.Body>
         </Card>

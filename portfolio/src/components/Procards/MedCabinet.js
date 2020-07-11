@@ -25,7 +25,7 @@ const MedCabinet = () => {
                 <ListGroupItem><b>Language:</b>  React Native</ListGroupItem>
                 <ListGroupItem><b>Time Allotted:</b>  3 1/2 Days</ListGroupItem>
             </ListGroup>
-            <Card.Body>
+            <Card.Body className="bottom">
                 <Card.Link href="https://med-cabinet-3.now.sh/">Demo</Card.Link>
                 <Card.Link href="https://github.com/bw-med-cabinet-3/Front-End">Repository</Card.Link>
             </Card.Body>

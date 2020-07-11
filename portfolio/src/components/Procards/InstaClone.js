@@ -25,7 +25,7 @@ const InstaClone = () => {
                 <ListGroupItem><b>Language:</b>  React</ListGroupItem>
                 <ListGroupItem><b>Time Allotted:</b> 2-3 Hours</ListGroupItem>
             </ListGroup>
-            <Card.Body>
+            <Card.Body className="bottom">
                 <Card.Link href="https://github.com/carlsachs/React-Components-Insta-Clone">Repository</Card.Link>
             </Card.Body>
         </Card>

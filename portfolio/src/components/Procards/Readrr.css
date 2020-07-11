@@ -1,0 +1,36 @@
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 1px solid #1890ff;
+    border-radius: 10px;
+}
+
+.card-body {
+    background: #f0faff;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #1890ff;
+    text-align: center;
+}
+
+.card-text {
+    color: "#003a8c";
+    text-align: center;
+}
+
+.list-group-flush {
+    color: "#003a8c";
+    text-align: center;
+}
+
+.bottom {
+    justify-content: space-evenly;
+}

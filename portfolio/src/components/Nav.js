@@ -11,7 +11,7 @@ import "./Nav.css";
 const Nav1 = () => {
     return (
         <Navbar className="main-nav" fixed="top" collapseOnSelect expand="lg" variant="light">
-            <Navbar.Brand href="/" style={{color: "#003a8c"}}>Carl's Portfolio</Navbar.Brand>
+            <Navbar.Brand href="/" style={{color: "#69c0ff"}}>Carl's Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">

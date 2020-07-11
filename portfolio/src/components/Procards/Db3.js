@@ -25,7 +25,7 @@ const Db3 = () => {
                 <ListGroupItem><b>Language:</b>  Node / JWT / Bcrypt</ListGroupItem>
                 <ListGroupItem><b>Time Allotted:</b>  Few Hours</ListGroupItem>
             </ListGroup>
-            <Card.Body>
+            <Card.Body className="bottom">
                 <Card.Link href="https://github.com/carlsachs/node-auth2-project">Repository</Card.Link>
             </Card.Body>
         </Card>

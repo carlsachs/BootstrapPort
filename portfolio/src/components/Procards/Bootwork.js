@@ -12,7 +12,7 @@ import bootwork from "./images/bootwork.png";
 const Bootwork = () => {
 
     return (
-        <Card bg="light" style={{ width: '20rem' }}>
+        <Card bg="light" className="card" style={{ width: '20rem' }}>
             <Card.Img variant="top" src={bootwork} />
             <Card.Body>
                 <Card.Title>BootWork</Card.Title>
@@ -25,7 +25,7 @@ const Bootwork = () => {
                 <ListGroupItem><b>Language:</b>  Typescript/Redux</ListGroupItem>
                 <ListGroupItem><b>Time Allotted:</b>  1 Month (Nights)</ListGroupItem>
             </ListGroup>
-            <Card.Body>
+            <Card.Body className="bottom">
                 <Card.Link href="https://bootwork.app/">Website</Card.Link>
                 <Card.Link href="https://www.facebook.com/BootWorkOfficial">Facebook Page</Card.Link>
             </Card.Body>

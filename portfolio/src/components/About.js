@@ -31,46 +31,7 @@ const About = () => {
                     </Row>
                 </Col>
                 <Col>
-                    <Carousel>
-                        <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            style={{height: "500px", opacity: ".6"}}
-                            src={minnesota}
-                            alt="First slide"
-                        />
-                        <Carousel.Caption>
-                            <h3>Work Preferences</h3>
-                            <p>Jump to my Work Preferences, and view my resume.</p>
-                        </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            style={{height: "500px", opacity: ".6"}}
-                            src={detroit2}
-                            alt="Work Preferences"
-                        />
                     
-                        <Carousel.Caption>
-                            <h3>Life Before Lambda</h3>
-                            <p>I used to work here, find out more about my life below!</p>
-                        </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            style={{height: "500px", opacity: ".6"}}
-                            src={minnesota}
-                            alt="Third slide"
-                        />
-                    
-                        <Carousel.Caption>
-                            <h3>Life at Lambda</h3>
-                            <p>View my current progress through my Lambda journey.</p>
-                        </Carousel.Caption>
-                        </Carousel.Item>
-                </Carousel>
                 </Col>
             </Row>
         </Container>

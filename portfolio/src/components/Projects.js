@@ -56,7 +56,7 @@ const Projects = () => {
                                 width: "80%",
                                 textDecoration: "none",
                                 fontSize: "1.4rem",
-                                color: "#002766",
+                                color: "aliceblue",
                                 border: "1px solid aliceblue",
                                 padding: "2%",
                                 borderRadius: "10px",

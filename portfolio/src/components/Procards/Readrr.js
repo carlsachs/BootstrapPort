@@ -26,7 +26,7 @@ const Readrr = () => {
                 <ListGroupItem><b>Language:</b>  React Native/Node</ListGroupItem>
                 <ListGroupItem><b>Time Allotted:</b>  2 Months</ListGroupItem>
             </ListGroup>
-            <Card.Body>
+            <Card.Body className="bottom">
                 <Card.Link href="https://readrr.app/">Demo</Card.Link>
                 <Card.Link href="https://github.com/Lambda-School-Labs/betterreads-fe">Repository</Card.Link>
             </Card.Body>

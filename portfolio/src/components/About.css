@@ -33,3 +33,24 @@
 .title {
     justify-content: center;
 }
+
+.track {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.left-track {
+    text-align: center;
+}
+
+.left-track h2 {
+    margin-bottom: 3%;
+}
+
+.right-track {
+    text-align: center;
+}
+
+.right-track h2 {
+    margin-bottom: 3%;
+}

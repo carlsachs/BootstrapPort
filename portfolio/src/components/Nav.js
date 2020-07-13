@@ -4,6 +4,10 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { NavDropdown } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+
+//import images
+import github from "./Procards/images/github.png";
 
 //import css
 import "./Nav.css";
@@ -25,12 +29,9 @@ const Nav1 = () => {
                     <NavDropdown.Item href="https://www.linkedin.com/in/carl-sachs/" target="_blank">Connect on LinkedIn</NavDropdown.Item>
                 </NavDropdown>
                 </Nav>
-                <Nav>
-                <Nav.Link href="https://www.linkedin.com/in/carl-sachs/" target="_blank" style={{color: "aliceblue"}}>LinkedIn</Nav.Link>
-                <Nav.Link href="https://github.com/carlsachs" target="_blank" style={{color: "aliceblue"}}>GitHub</Nav.Link>
-                <Nav.Link href="#memes" target="_blank" style={{color: "aliceblue"}}>
-                    Resume
-                </Nav.Link>
+                <Nav className="nav-left">
+                <Nav.Link href="https://github.com/carlsachs" target="_blank" style={{color: "aliceblue"}}><img src={github} alt="github logo" /></Nav.Link>
+                <Button variant="light" className="resume-button">My Resume</Button>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

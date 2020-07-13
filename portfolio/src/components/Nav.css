@@ -5,3 +5,17 @@
 #collasible-nav-dropdown {
     color: white;
 }
+
+.resume-button {
+    color: #096dd9;
+}
+
+.resume-button:hover {
+    color: white;
+    background: #096dd9;
+}
+
+.nav-left {
+    width: 20%;
+    justify-content: space-evenly;
+}

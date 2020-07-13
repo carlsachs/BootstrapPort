@@ -89,26 +89,69 @@
 }
 
 .two-col {
-
+    margin-bottom: 3%;
 }
 
 .left-work {
 }
 
 .right-work {
-    background: lightgrey;
+    
 }
 
 .location-title {
     justify-content: center;
     color: #003a8c;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 
 .card-about {
+    margin: 0 auto;
     border-radius: 3px;
+    margin-bottom: 3%;
+}
+
+.card-body {
+    background-color: white;
+    margin: 0 auto;
 }
 
 .card-subtitle {
     text-align: center;
+    color: #003a8c;
+}
+
+.card-text {
+    color: #003a8c;
+}
+
+.job-title {
+    justify-content: center;
+    color: #003a8c;
+    margin-bottom: 3%;
+}
+
+.rel-title {
+    justify-content: center;
+    color: #003a8c;
+    margin-bottom: 3%;
+}
+
+#lifebefore-title-id {
+    text-decoration: none;
+    color: #003a8c;
+    border: 1px solid #003a8c;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.before {
+    border: 1px solid blue
+}
+
+.titlebeforediv {
+    justify-content: center;
 }

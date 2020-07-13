@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Flip } from "react-reveal";
+import { Flip, Slide, Fade } from "react-reveal";
 import Card from "react-bootstrap/Card";
 
 import "./About.css";
@@ -43,12 +43,16 @@ const About = () => {
             </Row>
             </Flip>
             <Row>
+                <Slide left>
                 <Row className="lambda-top">
                     <h4>When I joined Lambda, I had never really coded a day in my life.  I now am coding most of my days.  To check out the curriculum I have followed this year, click <Link to="">here.</Link></h4>
                 </Row>
+                </Slide>
+                <Slide right>
                 <Row className="lambda-bottom">
                     <h4>The two biggest skills I'm taking out of Lambda are top-of-the-line problem solving and team collaboration.  Check out why this is important and Lambda's different approach towards teaching programmers <Link to="https://lambdaschool.com/">here.</Link></h4>
                 </Row>
+                </Slide>
             </Row>
             <Flip bottom>
             <Row className="work-preference">
@@ -62,21 +66,60 @@ const About = () => {
                 <Row className="location-title">
                     <h3>Location</h3>
                 </Row>
-                    <Card  className="card-about" style={{ width: '18rem' }}>
+                <Row>
+                    <Card  className="card-about" style={{ width: '25rem' }}>
                     <Card.Body>
                     <Card.Title>Current: Detroit</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Student @ Lambda</Card.Subtitle>
+                    <Card.Subtitle className="mb-2 text">Student @ Lambda</Card.Subtitle>
                     <Card.Text>
                         I am currently in school remotely in Detroit, Michigan.  I prefer to stay remote, but am open to relocating West.
                     </Card.Text>
-                    <Card.Link href="#">Card Link</Card.Link>
-                    <Card.Link href="#">Another Link</Card.Link>
+                    <Card.Link id="location-resume" href="#">My Resume</Card.Link>
                     </Card.Body>
                 </Card>
+                </Row>
                 </Col>
                 <Col className="right-work">
-                
+                    <Row className="job-title">
+                        <h3>Language</h3>
+                    </Row>
+                    <Row>
+                    <Card  className="card-about" style={{ width: '25rem' }}>
+                    <Card.Body>
+                    <Card.Title>Bias: Front-End</Card.Title>
+                    <Card.Subtitle className="mb-2 text">Focus in React.js</Card.Subtitle>
+                    <Card.Text>
+                        I am currently open for opportunities.  I would love to work with React, possibly using redux, bootstrap, materialUI, etc.
+                    </Card.Text>
+                    <Card.Link id="location-resume" href="https://mail.google.com/mail/?view=cm&fs=1&to=sachscarl@gmail.com&su=Inquiry&body=Thank you for taking the time to send me a message.  I will get back to you promptly!" target="_blank">Send me a message</Card.Link>
+                    </Card.Body>
+                </Card>
+                </Row>
                 </Col>
+                <Col className="relocation">
+                    <Row className="rel-title">
+                        <h3>Relocation</h3>
+                    </Row>
+                    <Row>
+                    <Card  className="card-about" style={{ width: '25rem' }}>
+                    <Card.Body>
+                    <Card.Title>Preference: West Coast</Card.Title>
+                    <Card.Subtitle className="mb-2 text">Right in the heart of tech!</Card.Subtitle>
+                    <Card.Text>
+                        I am open to relocation. Although if this is the case, I would preferable relocate into the heart of tech on the west coast.  Seattle, San Diego, etc.
+                    </Card.Text>
+                    <Card.Link id="location-resume" href="https://mail.google.com/mail/?view=cm&fs=1&to=sachscarl@gmail.com&su=Inquiry&body=Thank you for taking the time to send me a message.  I will get back to you promptly!" target="_blank">Ask me about relocation</Card.Link>
+                    </Card.Body>
+                </Card>
+                </Row>
+                </Col>
+            </Row>
+                <Flip bottom>
+                <Row className="titlebeforediv">
+                    <h2 id="lifebefore-title-id">Life Before Lambda</h2>
+                </Row>
+                </Flip>
+            <Row className="before">
             </Row>
             <Footer />
         </Container>

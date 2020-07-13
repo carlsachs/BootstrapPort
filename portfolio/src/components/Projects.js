@@ -80,7 +80,7 @@ const Projects = () => {
         <Row className="front-top">
             <Flip bottom>
                 <div>
-                    <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", textAlign: "center"}}>Front End</h2>
+                    <h2 id="front-end-title">Front End</h2>
                 </div>
             </Flip>
         </Row>
@@ -116,7 +116,7 @@ const Projects = () => {
         <Row className="back-top">
             <Flip bottom>
                 <div>
-                    <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", textAlign: "center"}}>Back End</h2>
+                    <h2 id="back-end-title">Back End</h2>
                 </div>
             </Flip>
         </Row>
@@ -139,7 +139,7 @@ const Projects = () => {
         <Row className="cs-top">
             <Flip bottom>
                 <div>
-                    <h2 style={{marginTop: "2%", textDecoration: "none", color: "#003a8c", border: "1px solid #003a8c", padding: "10px", borderRadius: "10px", textAlign: "center"}}>Computer Science</h2>
+                    <h2 id="cs-title-id">Computer Science</h2>
                 </div>
             </Flip>
         </Row>

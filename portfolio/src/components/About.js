@@ -1,11 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-//import css and bootstrap
+//import css and bootstrap/styling libraries
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ProgressBar from "react-bootstrap/ProgressBar";
-
+import { Flip, Fade, Slide } from "react-reveal";
 
 import "./About.css";
 
@@ -36,19 +36,20 @@ const About = () => {
                    <h2 style={{textAlign: "center", color: "aliceblue", fontSize: "3rem" }}>Image of myself here</h2>
                 </Col>
             </Row>
-            <Row className="track">
-                <Col className="left-track">
-                    <h2>Life at Lambda</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </Col>
-                <Col className="right-track">
-                <Row>
-                    <h2>Completion</h2>
+            <Flip bottom>
+            <Row className="titlediv">
+
+                    <h2 id="life-title-id">Life at Lambda</h2>
+
+            </Row>
+            </Flip>
+            <Row>
+                <Row className="lambda-top">
+                    <h4>When I joined Lambda, I had never really coded a day in my life.  I now am coding most of my days.  To check out the curriculum I have followed this year, click <Link to="">here.</Link></h4>
                 </Row>
-                <Row>
-                <p>Track my completion of the Lambda Full-Stack Development course.</p>
+                <Row className="lambda-bottom">
+                    <h4>Check out Lambda and the different approach they have towards teaching programmers <Link to="https://lambdaschool.com/">here.</Link></h4>
                 </Row>
-                </Col>
             </Row>
             <Footer />
         </Container>

@@ -62,6 +62,16 @@ h1::after {
   }
 }
 
-/* @media all and (min-width: 315px) and (max-width: 499px){
+@media all and (max-width: 350px){
+  h1::before,
+  h1::after {
+    top: 118px;
+  }
+}
 
-} */
+@media all and (min-width: 351px) and (max-width: 415px){
+  h1::before,
+  h1::after {
+    top: 130px;
+  }
+}

@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Flip, Fade, Slide } from "react-reveal";
+import { Flip } from "react-reveal";
+import Card from "react-bootstrap/Card";
 
 import "./About.css";
 
@@ -38,9 +39,7 @@ const About = () => {
             </Row>
             <Flip bottom>
             <Row className="titlediv">
-
-                    <h2 id="life-title-id">Life at Lambda</h2>
-
+                <h2 id="life-title-id">Life at Lambda</h2>
             </Row>
             </Flip>
             <Row>
@@ -48,8 +47,36 @@ const About = () => {
                     <h4>When I joined Lambda, I had never really coded a day in my life.  I now am coding most of my days.  To check out the curriculum I have followed this year, click <Link to="">here.</Link></h4>
                 </Row>
                 <Row className="lambda-bottom">
-                    <h4>Check out Lambda and the different approach they have towards teaching programmers <Link to="https://lambdaschool.com/">here.</Link></h4>
+                    <h4>The two biggest skills I'm taking out of Lambda are top-of-the-line problem solving and team collaboration.  Check out why this is important and Lambda's different approach towards teaching programmers <Link to="https://lambdaschool.com/">here.</Link></h4>
                 </Row>
+            </Row>
+            <Flip bottom>
+            <Row className="work-preference">
+                <Row className="work-title">
+                    <h2 id="work-title-id">Work Preference</h2>
+                </Row>
+            </Row>
+            </Flip>
+            <Row className="two-col">
+                <Col className="left-work">
+                <Row className="location-title">
+                    <h3>Location</h3>
+                </Row>
+                    <Card  className="card-about" style={{ width: '18rem' }}>
+                    <Card.Body>
+                    <Card.Title>Current: Detroit</Card.Title>
+                    <Card.Subtitle className="mb-2 text-muted">Student @ Lambda</Card.Subtitle>
+                    <Card.Text>
+                        I am currently in school remotely in Detroit, Michigan.  I prefer to stay remote, but am open to relocating West.
+                    </Card.Text>
+                    <Card.Link href="#">Card Link</Card.Link>
+                    <Card.Link href="#">Another Link</Card.Link>
+                    </Card.Body>
+                </Card>
+                </Col>
+                <Col className="right-work">
+                
+                </Col>
             </Row>
             <Footer />
         </Container>

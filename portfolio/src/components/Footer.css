@@ -28,7 +28,7 @@
 
 .linkcon:hover {
     opacity: 0.4;
-    transition: 1s;
+    transition: .5s;
 }
 
 .twit {
@@ -45,7 +45,7 @@
 
 .twitcon:hover {
     opacity: 0.4;
-    transition: 1s;
+    transition: .5s;
 }
 
 .gmail {
@@ -62,5 +62,5 @@
 
 .gmail-icon:hover {
     opacity: 0.4;
-    transition: 1s;
+    transition: .5s;
 }

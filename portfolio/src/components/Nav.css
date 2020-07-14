@@ -4,4 +4,60 @@
 
 #collasible-nav-dropdown {
     color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#collasible-nav-dropdown:hover {
+    background-color: white;
+    color: #096dd9;
+    transition: .5s;
+}
+
+#projects-nav-item {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+}
+
+#projects-nav-item:hover {
+    background-color: white;
+    color: #096dd9;
+    transition: .5s;
+}
+
+#about-nav-item {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+}
+
+#about-nav-item:hover {
+    background-color: white;
+    color: #096dd9;
+    transition: .5s;
+}
+
+.resume-button {
+    color: #096dd9;
+}
+
+.resume-button:hover {
+    color: white;
+    background: #096dd9;
+}
+
+.nav-left {
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.mr-auto {
+    width: 40%;
+    justify-content: space-evenly;
 }

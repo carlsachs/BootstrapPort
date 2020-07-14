@@ -18,7 +18,7 @@ const Readrr = () => {
             <Card.Body>
                 <Card.Title>Readrr (Featured)</Card.Title>
                 <Card.Text>
-                My Lambda School "thesis".  Goodreads alternative.
+                My Lambda School "thesis". Goodreads alternative.
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">

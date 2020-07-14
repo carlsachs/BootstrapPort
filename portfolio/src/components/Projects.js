@@ -121,8 +121,8 @@ const Projects = () => {
             </Flip>
         </Row>
         <Slide right>
-            <Row className="back-boxes">
-                <Col>
+            <Row className="back-boxes" md={4} sm={2} xs={1}>
+                <Col style={{justifyContent: "center"}}>
                     <Authentication />
                 </Col>
                 <Col>

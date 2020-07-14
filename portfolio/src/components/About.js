@@ -68,6 +68,7 @@ const About = () => {
                 <Row className="location-title">
                     <h3>Location</h3>
                 </Row>
+                <Slide bottom>
                 <Row>
                     <Card  className="card-about" style={{ width: '25rem' }}>
                     <Card.Body>
@@ -80,11 +81,13 @@ const About = () => {
                     </Card.Body>
                 </Card>
                 </Row>
+                </Slide>
                 </Col>
                 <Col className="right-work">
                     <Row className="job-title">
                         <h3>Language</h3>
                     </Row>
+                    <Slide bottom delay={350}>
                     <Row>
                     <Card  className="card-about" style={{ width: '25rem' }}>
                     <Card.Body>
@@ -97,11 +100,13 @@ const About = () => {
                     </Card.Body>
                 </Card>
                 </Row>
+                </Slide>
                 </Col>
                 <Col className="relocation">
                     <Row className="rel-title">
                         <h3>Relocation</h3>
                     </Row>
+                    <Slide bottom delay={700}>
                     <Row>
                     <Card  className="card-about" style={{ width: '25rem' }}>
                     <Card.Body>
@@ -114,6 +119,7 @@ const About = () => {
                     </Card.Body>
                 </Card>
                 </Row>
+                </Slide>
                 </Col>
             </Row>
                 <Flip bottom>

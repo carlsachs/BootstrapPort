@@ -149,9 +149,15 @@
 }
 
 .before {
-    border: 1px solid blue
+    justify-content: center;
+    margin-bottom: 2%;
 }
 
 .titlebeforediv {
     justify-content: center;
+}
+
+.about-three-cards {
+    justify-content: space-evenly;
+    margin-bottom: 3%;
 }

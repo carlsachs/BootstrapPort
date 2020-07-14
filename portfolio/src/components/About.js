@@ -7,13 +7,15 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Flip, Slide, Fade } from "react-reveal";
 import Card from "react-bootstrap/Card";
+import ListGroup from "react-bootstrap/ListGroup";
+import ListGroupItem from "react-bootstrap/ListGroupItem";
 
 import "./About.css";
 
 //import images
-import detroit1 from "../images/detroit1.jpg";
-import detroit2 from "../images/detroit2.jpg";
-import minnesota from "../images/minnesota.jpg";
+import coach from "../images/coach.jpeg";
+import school from "../images/school.jpeg";
+import pistons from "../images/pistons.jpg";
 
 //import other components
 import Nav1 from "./Nav";
@@ -120,6 +122,68 @@ const About = () => {
                 </Row>
                 </Flip>
             <Row className="before">
+                <h3>My life has been focused on the people industry.  Whether it be bartending, serving, or sales, I was all about it.</h3>
+            </Row>
+            <Row className="about-three-cards">
+                <Row className="card1-row">
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={coach} />
+                        <Card.Body>
+                        <Card.Title>GM Rennaissance</Card.Title>
+                        <Card.Text>
+                            At both Coach Insignia and Andiamo Riverfront, I provided a memorable experience for anyone who came through the door.  I really couldn't have asked for better places of work at the time.
+                        </Card.Text>
+                        </Card.Body>
+                        <ListGroup className="list-group-flush">
+                        <ListGroupItem>Bartending</ListGroupItem>
+                        <ListGroupItem>Serving</ListGroupItem>
+                        <ListGroupItem>Sales and People Skills</ListGroupItem>
+                        </ListGroup>
+                        <Card.Body>
+                        <Card.Link href="#">Resume</Card.Link>
+                        <Card.Link href="#">LinkedIn</Card.Link>
+                        </Card.Body>
+                    </Card>
+                </Row>
+                <Row className="card2-row">
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={school} />
+                        <Card.Body>
+                        <Card.Title>College Stint</Card.Title>
+                        <Card.Text>
+                            I attended Wayne State University's School of Business, but dropped out two years in after realizing that waiting (and paying) for my education and future wasn't worth it.  I wanted to act now.
+                        </Card.Text>
+                        </Card.Body>
+                        <ListGroup className="list-group-flush">
+                        <ListGroupItem>Major: Business Admin</ListGroupItem>
+                        <ListGroupItem>Minor: Finance</ListGroupItem>
+                        <ListGroupItem>Time Management Skills</ListGroupItem>
+                        </ListGroup>
+                        <Card.Body>
+                        <Card.Link href="#">Resume</Card.Link>
+                        <Card.Link href="#">LinkedIn</Card.Link>
+                        </Card.Body>
+                    </Card>
+                </Row>
+                <Row className="card3-row">
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={pistons} />
+                        <Card.Body>
+                        <Card.Title>Outside of Code</Card.Title>
+                        <Card.Text>
+                            I have had a very unique path in life but something I've loved to do through it all is play basketball.  I grew up watching the Pistons back in 03', 04', and have played recreationally most of my life.
+                        </Card.Text>
+                        </Card.Body>
+                        <ListGroup className="list-group-flush">
+                        <ListGroupItem>Focus</ListGroupItem>
+                        <ListGroupItem>TeamWork</ListGroupItem>
+                        <ListGroupItem>Leadership</ListGroupItem>
+                        </ListGroup>
+                        <Card.Body>
+                        <Card.Link href="https://www.youtube.com/watch?v=4AisIcFHpko" target="_blank">2004 Pistons Tribute</Card.Link>
+                        </Card.Body>
+                    </Card>
+                </Row>
             </Row>
             <Footer />
         </Container>

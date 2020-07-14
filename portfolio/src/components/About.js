@@ -35,6 +35,7 @@ const About = () => {
                         <h3>Web Developer</h3>
                     </Row>
                 </Col>
+
                 <Col style={{marginTop: "12%"}}>
                    <h2 style={{textAlign: "center", color: "aliceblue", fontSize: "3rem" }}>Image of myself here</h2>
                 </Col>

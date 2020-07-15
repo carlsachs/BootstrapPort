@@ -110,10 +110,11 @@
     margin: 0 auto;
     border-radius: 3px;
     margin-bottom: 3%;
+    background: none;
 }
 
 .card-body {
-    background-color: white;
+    background-color: none;
     margin: 0 auto;
 }
 
@@ -161,4 +162,8 @@
 .about-three-cards {
     justify-content: space-evenly;
     margin-bottom: 3%;
+}
+
+.card-link {
+    
 }

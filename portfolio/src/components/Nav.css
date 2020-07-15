@@ -6,7 +6,6 @@
     color: white;
     border: 1px solid white;
     border-radius: 5px;
-    width: 100%;
 }
 
 #collasible-nav-dropdown:hover {
@@ -47,6 +46,10 @@
     color: #096dd9;
 }
 
+.nav-dropdown-item {
+    background: red;
+}
+
 .resume-button:hover {
     color: white;
     background: #096dd9;
@@ -60,4 +63,32 @@
 .mr-auto {
     width: 40%;
     justify-content: space-evenly;
+}
+
+@media all and (max-width: 993px) {
+    #collasible-nav-dropdown {
+        border: 1px solid white;
+        width: 100%;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    #projects-nav-item {
+        border: 1px solid white;
+        width: 100%;
+        margin-bottom: 4%;
+    }
+    #about-nav-item {
+        border: 1px solid white;
+        width: 100%;
+        margin-bottom: 4%;
+    }
+    #collasible-nav-dropdown:hover {
+        
+    }
+    #projects-nav-item:hover {
+        
+    }
+    #about-nav-item:hover {
+
+    }
 }

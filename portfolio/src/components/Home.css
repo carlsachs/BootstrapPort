@@ -9,6 +9,41 @@
     overflow: hidden;
 }
 
+.title {
+  justify-content: center;
+  position: absolute;
+}
+
+@media all and (max-width: 770px) {
+  .title {
+    top: 54.12%;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .title {
+    top: 49%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .title {
+    top: 46.5%;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .title {
+    top: 51%;
+  }
+}
+
+@media all and (max-width: 325px) {
+  .title {
+    top: 44%;
+  }
+}
+
 h1 {
   position: relative;
   font-family: 'Roboto', Arial, sans-serif;
@@ -59,19 +94,5 @@ h1::after {
       transform: translate(-50%, -60%) rotateX(10deg);
       -webkit-clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
               clip-path: polygon(0% 60%, 100% 60%, 100% 100%, 0% 100%);
-  }
-}
-
-@media all and (max-width: 350px){
-  h1::before,
-  h1::after {
-    top: 118px;
-  }
-}
-
-@media all and (min-width: 351px) and (max-width: 415px){
-  h1::before,
-  h1::after {
-    top: 130px;
   }
 }

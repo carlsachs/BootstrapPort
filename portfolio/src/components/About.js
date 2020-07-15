@@ -48,7 +48,7 @@ const About = () => {
             <Row>
                 <Slide left>
                 <Row className="lambda-top">
-                    <h4>When I joined Lambda, I had never really coded a day in my life.  I now am coding most of my days.  To check out the curriculum I have followed this year, click <Link to="">here.</Link></h4>
+                    <h4>When I joined Lambda, I had never really coded a day in my life.  Man, did that change quick.  To check out the curriculum I have followed this year, click <Link to="">here.</Link></h4>
                 </Row>
                 </Slide>
                 <Slide right>
@@ -88,7 +88,7 @@ const About = () => {
                     <Row className="job-title">
                         <h3>Language</h3>
                     </Row>
-                    <Slide bottom delay={350}>
+                    <Slide bottom delay={100}>
                     <Row>
                     <Card  className="card-about" style={{ width: '25rem' }}>
                     <Card.Body>
@@ -107,7 +107,7 @@ const About = () => {
                     <Row className="rel-title">
                         <h3>Relocation</h3>
                     </Row>
-                    <Slide bottom delay={700}>
+                    <Slide bottom delay={300}>
                     <Row>
                     <Card  className="card-about" style={{ width: '25rem' }}>
                     <Card.Body>
@@ -149,7 +149,7 @@ const About = () => {
                             <ListGroupItem>Serving</ListGroupItem>
                             <ListGroupItem>Sales and People Skills</ListGroupItem>
                             </ListGroup>
-                            <Card.Body>
+                            <Card.Body style={{background: "none"}}>
                             <Card.Link href="#">Resume</Card.Link>
                             <Card.Link href="#">LinkedIn</Card.Link>
                             </Card.Body>
@@ -171,7 +171,7 @@ const About = () => {
                             <ListGroupItem>Minor: Finance</ListGroupItem>
                             <ListGroupItem>Time Management Skills</ListGroupItem>
                             </ListGroup>
-                            <Card.Body>
+                            <Card.Body style={{background: "none"}}>
                             <Card.Link href="#">Resume</Card.Link>
                             <Card.Link href="#">LinkedIn</Card.Link>
                             </Card.Body>
@@ -193,7 +193,7 @@ const About = () => {
                             <ListGroupItem>TeamWork</ListGroupItem>
                             <ListGroupItem>Leadership</ListGroupItem>
                             </ListGroup>
-                            <Card.Body>
+                            <Card.Body style={{background: "none"}}>
                             <Card.Link href="https://www.youtube.com/watch?v=4AisIcFHpko" target="_blank">2004 Pistons Tribute</Card.Link>
                             </Card.Body>
                         </Card>

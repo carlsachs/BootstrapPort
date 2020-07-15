@@ -121,19 +121,27 @@ const Projects = () => {
             </Flip>
         </Row>
         <Slide right>
-            <Row className="back-boxes" md={4} sm={2} xs={1}>
-                <Col style={{justifyContent: "center"}}>
+            <Row className="back-boxes">
+            <Fade bottom>
+                <Col>
                     <Authentication />
                 </Col>
+            </Fade>
+            <Fade bottom>
                 <Col>
                     <Db3 />
                 </Col>
+            </Fade>
+            <Fade bottom>
                 <Col>
                     <Todo />
                 </Col>
+            </Fade>
+            <Fade bottom>
                 <Col>
                 <Middleware />
                 </Col>
+            </Fade>
             </Row>
         </Slide>
         <Row className="cs-top">
@@ -145,18 +153,26 @@ const Projects = () => {
         </Row>
         <Slide left>
             <Row className="cs-boxes">
+            <Fade bottom>
                 <Col>
                     <Readrr />
                 </Col>
+            </Fade>
+            <Fade bottom>
                 <Col>
                     <Bootwork />
                 </Col>
+            </Fade>
+            <Fade bottom>
                 <Col>
                     <MedCabinet />
                 </Col>
+            </Fade>
+            <Fade bottom>
                 <Col>
                     <InstaClone />
                 </Col>
+            </Fade>
             </Row>
         </Slide>
         <Slide right>

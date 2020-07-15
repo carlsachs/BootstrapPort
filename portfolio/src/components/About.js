@@ -64,7 +64,7 @@ const About = () => {
                 </Row>
             </Row>
             </Flip>
-            <Row className="two-col">
+            <Row className="two-col" md={2} sm={1}>
                 <Col className="left-work">
                 <Row className="location-title">
                     <h3>Location</h3>

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Flip, Slide, Fade } from "react-reveal";
+import { Flip, Slide, Fade, Bounce } from "react-reveal";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
@@ -31,7 +31,7 @@ const About = () => {
                     <Row className="name">
                         <h2>Carl Sachs</h2>
                     </Row>
-                    <Row className="title">
+                    <Row className="title-developer">
                         <h3>Web Developer</h3>
                     </Row>
                 </Col>
@@ -72,15 +72,15 @@ const About = () => {
                 <Slide bottom>
                 <Row>
                     <Card  className="card-about" style={{ width: '25rem' }}>
-                    <Card.Body>
-                    <Card.Title>Current: Detroit</Card.Title>
-                    <Card.Subtitle className="mb-2 text">Student @ Lambda</Card.Subtitle>
-                    <Card.Text>
-                        I am currently in school remotely in Detroit, Michigan.  I prefer to stay remote, but am open to relocating West.
-                    </Card.Text>
-                    <Card.Link id="location-resume" href="#">My Resume</Card.Link>
-                    </Card.Body>
-                </Card>
+                        <Card.Body>
+                        <Card.Title>Current: Detroit</Card.Title>
+                        <Card.Subtitle className="mb-2 text">Student @ Lambda</Card.Subtitle>
+                        <Card.Text>
+                            I am currently in school remotely in Detroit, Michigan.  I prefer to stay remote, but am open to relocating West.
+                        </Card.Text>
+                        <Card.Link id="location-resume" href="#">My Resume</Card.Link>
+                        </Card.Body>
+                    </Card>
                 </Row>
                 </Slide>
                 </Col>
@@ -128,68 +128,76 @@ const About = () => {
                     <h2 id="lifebefore-title-id">Life Before Lambda</h2>
                 </Row>
                 </Flip>
-            <Row className="before">
-                <h3>My life has been focused on the people industry.  Whether it be bartending, serving, or sales, I was all about it.</h3>
-            </Row>
+            <Fade bottom>
+                <Row className="before">
+                    <h3>My life has been focused on the people industry.  Whether it be bartending, serving, or sales, I was all about it.</h3>
+                </Row>
+            </Fade>
             <Row className="about-three-cards">
                 <Row className="card1-row">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={coach} />
-                        <Card.Body>
-                        <Card.Title>GM Rennaissance</Card.Title>
-                        <Card.Text>
-                            At both Coach Insignia and Andiamo Riverfront, I provided a memorable experience for anyone who came through the door.  I really couldn't have asked for better places of work at the time.
-                        </Card.Text>
-                        </Card.Body>
-                        <ListGroup className="list-group-flush">
-                        <ListGroupItem>Bartending</ListGroupItem>
-                        <ListGroupItem>Serving</ListGroupItem>
-                        <ListGroupItem>Sales and People Skills</ListGroupItem>
-                        </ListGroup>
-                        <Card.Body>
-                        <Card.Link href="#">Resume</Card.Link>
-                        <Card.Link href="#">LinkedIn</Card.Link>
-                        </Card.Body>
-                    </Card>
+                    <Bounce left>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={coach} />
+                            <Card.Body>
+                            <Card.Title>GM Rennaissance</Card.Title>
+                            <Card.Text>
+                                At both Coach Insignia and Andiamo Riverfront, I provided a memorable experience for anyone who came through the door.  I really couldn't have asked for better places of work at the time.
+                            </Card.Text>
+                            </Card.Body>
+                            <ListGroup className="list-group-flush">
+                            <ListGroupItem>Bartending</ListGroupItem>
+                            <ListGroupItem>Serving</ListGroupItem>
+                            <ListGroupItem>Sales and People Skills</ListGroupItem>
+                            </ListGroup>
+                            <Card.Body>
+                            <Card.Link href="#">Resume</Card.Link>
+                            <Card.Link href="#">LinkedIn</Card.Link>
+                            </Card.Body>
+                        </Card>
+                    </Bounce>
                 </Row>
                 <Row className="card2-row">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={school} />
-                        <Card.Body>
-                        <Card.Title>College Stint</Card.Title>
-                        <Card.Text>
-                            I attended Wayne State University's School of Business, but dropped out two years in after realizing that waiting (and paying) for my education and future wasn't worth it.  I wanted to act now.
-                        </Card.Text>
-                        </Card.Body>
-                        <ListGroup className="list-group-flush">
-                        <ListGroupItem>Major: Business Admin</ListGroupItem>
-                        <ListGroupItem>Minor: Finance</ListGroupItem>
-                        <ListGroupItem>Time Management Skills</ListGroupItem>
-                        </ListGroup>
-                        <Card.Body>
-                        <Card.Link href="#">Resume</Card.Link>
-                        <Card.Link href="#">LinkedIn</Card.Link>
-                        </Card.Body>
-                    </Card>
+                    <Bounce left delay={250}>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={school} />
+                            <Card.Body>
+                            <Card.Title>College Stint</Card.Title>
+                            <Card.Text>
+                                I attended Wayne State University's School of Business, but dropped out two years in after realizing that waiting (and paying) for my education and future wasn't worth it.  I wanted to act now.
+                            </Card.Text>
+                            </Card.Body>
+                            <ListGroup className="list-group-flush">
+                            <ListGroupItem>Major: Business Admin</ListGroupItem>
+                            <ListGroupItem>Minor: Finance</ListGroupItem>
+                            <ListGroupItem>Time Management Skills</ListGroupItem>
+                            </ListGroup>
+                            <Card.Body>
+                            <Card.Link href="#">Resume</Card.Link>
+                            <Card.Link href="#">LinkedIn</Card.Link>
+                            </Card.Body>
+                        </Card>
+                    </Bounce>
                 </Row>
                 <Row className="card3-row">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={pistons} />
-                        <Card.Body>
-                        <Card.Title>Outside of Code</Card.Title>
-                        <Card.Text>
-                            I have had a very unique path in life but something I've loved to do through it all is play basketball.  I grew up watching the Pistons back in 03', 04', and have played recreationally most of my life.
-                        </Card.Text>
-                        </Card.Body>
-                        <ListGroup className="list-group-flush">
-                        <ListGroupItem>Focus</ListGroupItem>
-                        <ListGroupItem>TeamWork</ListGroupItem>
-                        <ListGroupItem>Leadership</ListGroupItem>
-                        </ListGroup>
-                        <Card.Body>
-                        <Card.Link href="https://www.youtube.com/watch?v=4AisIcFHpko" target="_blank">2004 Pistons Tribute</Card.Link>
-                        </Card.Body>
-                    </Card>
+                <Bounce left delay={500}>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" src={pistons} />
+                            <Card.Body>
+                            <Card.Title>Outside of Code</Card.Title>
+                            <Card.Text>
+                                I have had a very unique path in life but something I've loved to do through it all is play basketball.  I grew up watching the Pistons back in 03', 04', and have played recreationally most of my life.
+                            </Card.Text>
+                            </Card.Body>
+                            <ListGroup className="list-group-flush">
+                            <ListGroupItem>Focus</ListGroupItem>
+                            <ListGroupItem>TeamWork</ListGroupItem>
+                            <ListGroupItem>Leadership</ListGroupItem>
+                            </ListGroup>
+                            <Card.Body>
+                            <Card.Link href="https://www.youtube.com/watch?v=4AisIcFHpko" target="_blank">2004 Pistons Tribute</Card.Link>
+                            </Card.Body>
+                        </Card>
+                    </Bounce>
                 </Row>
             </Row>
             <Footer />

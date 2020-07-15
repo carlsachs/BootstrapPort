@@ -32,7 +32,7 @@ const Projects = () => {
         <Container fluid style={{backgroundColor: "aliceblue"}}>
             <Nav1 />
         <Row className="top-proj">
-            <Col className="top-left">
+            <Col className="top-left" md={6}>
                 <Fade top>
                     <Row className="pro-title">
                         <h2>Featured Projects</h2>
@@ -48,7 +48,7 @@ const Projects = () => {
                         <h3>Compiled list of my skills <Link style={{textDecoration: "none", color: "white"}} to="/skills">here</Link></h3>
                     </div>
                 </Row>
-                    <Col>
+                <Col>
                     <Flip top delay={850}>
                         <div className="front-mid">
                             <Link target="_blank" to="https://github.com/carlsachs"
@@ -67,15 +67,9 @@ const Projects = () => {
                             }}>Follow me on Github</Link>
                         </div>
                     </Flip>
-                    </Col>
+                </Col>
             </Col>
-            <Col>
-                <Row className="d-none d-md-block" md={0}s>
-                    <div className="top-right">
-                        <img src={undraw} alt="svg of projects" />
-                    </div>
-                </Row>
-            </Col>
+
         </Row>
         <Row className="front-top">
             <Flip bottom>

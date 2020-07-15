@@ -36,7 +36,7 @@ const About = () => {
                     </Row>
                 </Col>
 
-                <Col style={{marginTop: "12%"}}>
+                <Col className="d-none d-md-block" md={0} style={{marginTop: "12%"}}>
                    <h2 style={{textAlign: "center", color: "aliceblue", fontSize: "3rem" }}>Image of myself here</h2>
                 </Col>
             </Row>
@@ -64,7 +64,7 @@ const About = () => {
                 </Row>
             </Row>
             </Flip>
-            <Row className="two-col" md={2} sm={1}>
+            <Row className="two-col" md={2} sm={1} xs={1}>
                 <Col className="left-work">
                 <Row className="location-title">
                     <h3>Location</h3>
@@ -78,7 +78,7 @@ const About = () => {
                         <Card.Text>
                             I am currently in school remotely in Detroit, Michigan.  I prefer to stay remote, but am open to relocating West.
                         </Card.Text>
-                        <Card.Link id="location-resume" href="#">My Resume</Card.Link>
+                        <Card.Link href="#">My Resume</Card.Link>
                         </Card.Body>
                     </Card>
                 </Row>

@@ -70,7 +70,7 @@ const Projects = () => {
                     </Col>
             </Col>
             <Col>
-                <Row>
+                <Row className="d-none d-md-block" md={0}s>
                     <div className="top-right">
                         <img src={undraw} alt="svg of projects" />
                     </div>

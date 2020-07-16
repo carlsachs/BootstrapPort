@@ -71,3 +71,8 @@
     opacity: 0.4;
     transition: .5s;
 }
+
+#twitter-footer:hover {
+    transition: .5s;
+    color: #003a8c;
+}

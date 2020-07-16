@@ -107,7 +107,7 @@ const About = () => {
                     <Row className="rel-title">
                         <h3>Relocation</h3>
                     </Row>
-                    <Slide bottom delay={300}>
+                    <Slide bottom delay={200}>
                     <Row>
                     <Card  className="card-about" style={{ width: '25rem' }}>
                     <Card.Body>
@@ -157,7 +157,7 @@ const About = () => {
                     </Bounce>
                 </Row>
                 <Row className="card2-row">
-                    <Bounce left delay={250}>
+                    <Bounce left delay={100}>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={school} />
                             <Card.Body>
@@ -179,7 +179,7 @@ const About = () => {
                     </Bounce>
                 </Row>
                 <Row className="card3-row">
-                <Bounce left delay={500}>
+                <Bounce left delay={200}>
                         <Card style={{ width: '18rem' }}>
                             <Card.Img variant="top" src={pistons} />
                             <Card.Body>

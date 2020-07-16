@@ -22,10 +22,13 @@ const Footer = () => {
                 </Col>
                 <Col className="right">
                     <Row style={{justifyContent: "center"}}>
-                        <Link to="https://www.twitter.com/CarltonSachs" style={{textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Twitter</Link>
+                        <a id="twitter-footer" href="https://www.twitter.com/CarltonSachs" style={{textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Twitter</a>
                     </Row>
                     <Row style={{justifyContent: "center"}}>
-                        <Link to="https://mail.google.com/mail/?view=cm&fs=1&to=sachscarl@gmail.com" style={{textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Gmail</Link>
+                        <a id="gh-footer" href="https://github.com/carlsachs?tab=repositories" style={{textDecoration: "none", color: "white", fontSize: "1.2rem" }}>GitHub</a>
+                    </Row>
+                    <Row style={{justifyContent: "center"}}>
+                        <a id="gmail-footer" href="https://mail.google.com/mail/?view=cm&fs=1&to=sachscarl@gmail.com" style={{textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Gmail</a>
                     </Row>
                     <Row style={{justifyContent: "center"}}>
                         <h3 style={{textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Phone: 313-330-7308 (Call or Text)</h3>

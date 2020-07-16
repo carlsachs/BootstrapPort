@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 //import bootstrap and css
 import "./ModalForm.css";
@@ -6,11 +6,21 @@ import Form from "react-bootstrap/Form";
 
 const ModalForm = () => {
 
+    const submit = (e) => {
+        e.preventDefault()
+        fetch("https://hooks.zapier.com/hooks/catch/8041428/ozgc3ch", {
+            method: "POST",
+            body: JSON.stringify({ name, email, message })
+        })
+    }
+
+    const
+
     return (
-        <Form action="https://hooks.zapier.com/hooks/catch/8041428/ozgc3ch" method="post">
+        <Form onSubmit={submit}>
             <Form.Group>
                 <Form.Label>Name</Form.Label>
-                <Form.Control placeholder="What is your name?" />
+                <Form.Control name="name" placeholder="What is your name?" value={name} />
             </Form.Group>
             <Form.Group>
                 <Form.Label>Email</Form.Label>
@@ -29,7 +39,8 @@ const ModalForm = () => {
                 </Form.Control>
             </Form.Group>
             <Form.Group>
-                
+                <Form.Label>Message</Form.Label>
+                <Form.Control as="textarea" />
             </Form.Group>
         </Form>
     )

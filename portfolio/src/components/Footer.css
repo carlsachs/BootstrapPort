@@ -13,58 +13,10 @@
 }
 
 .footerRow {
-    justify-content: center;
+    /* justify-content: center;
     margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.linked {
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.linkcon {
-    height: 75px;
-    width: 75px;
-    cursor: pointer;
-    margin: 0 auto;
-}
-
-.linkcon:hover {
-    opacity: 0.4;
-    transition: .5s;
-}
-
-.twit {
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.twitcon {
-    height: 75px;
-    width: 75px;
-    cursor: pointer;
-    margin: 0 auto;
-}
-
-.twitcon:hover {
-    opacity: 0.4;
-    transition: .5s;
-}
-
-.gmail {
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-.gmail-icon {
-    height: 75px;
-    width: 75px;
-    cursor: pointer;
-    margin: 0 auto;
-}
-
-.gmail-icon:hover {
-    opacity: 0.4;
-    transition: .5s;
+    margin-bottom: 3%; */
+    position: absolute;
+    top: 35%;
+    left: 20%;
 }

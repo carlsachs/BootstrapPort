@@ -48,7 +48,7 @@ const About = () => {
             <Row>
                 <Slide left>
                 <Row className="lambda-top">
-                    <h4>When I joined Lambda, I had never really coded a day in my life.  Man, did that change quick.  To check out the curriculum I have followed this year, click <Link to="">here.</Link></h4>
+                    <h4>When I joined Lambda, I had never really coded a day in my life.  That changed quickly.  To check out the curriculum I have followed this year, click <Link to="">here.</Link></h4>
                 </Row>
                 </Slide>
                 <Slide right>

@@ -5,6 +5,8 @@ import "./Footer.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
+import DownloadLink from "react-download-link";
 
 //import other local components
 import ContactModal from "./ContactModal";
@@ -12,7 +14,7 @@ import ContactModal from "./ContactModal";
 const Footer = () => {
 
     return (
-        <Container fluid>
+        <Container id="wrap" fluid>
             <Row className="footer-wrap">
                 <Col className="left">
                     <Row className="footerRow">

@@ -8,7 +8,7 @@ const ModalForm = () => {
 
     const submit = (e) => {
         e.preventDefault()
-        fetch("https://hooks.zapier.com/hooks/catch/8041428/ozgc3ch", {
+        fetch("", {
             method: "POST",
             body: JSON.stringify({ name, email, message })
         }).then(() => alert("Message Successfully sent!  Thank you!")).catch(() => alert("There was an error sending your message, please try again"))

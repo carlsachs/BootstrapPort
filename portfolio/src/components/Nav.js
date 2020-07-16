@@ -18,7 +18,7 @@ import "./Nav.css";
 const Nav1 = () => {
     return (
         <Navbar className="main-nav" fixed="top" collapseOnSelect expand="lg" variant="light">
-            <Navbar.Brand href="/" style={{color: "#69c0ff"}}>Carl's Portfolio</Navbar.Brand>
+            <Navbar.Brand href="/" style={{color: "#69c0ff", fontSize: "2rem"}}>Carl Sachs</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
@@ -31,7 +31,7 @@ const Nav1 = () => {
                 </NavDropdown>
                 </Nav>
                 <Nav className="nav-left">
-                <Nav.Link href="https://github.com/carlsachs" target="_blank" style={{justifyContent: "center", color: "aliceblue"}}><img src={github} alt="github logo" /></Nav.Link>
+                <ContactModal />
                 <Button variant="light" className="resume-button">My Resume</Button>
                 </Nav>
             </Navbar.Collapse>

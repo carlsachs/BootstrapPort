@@ -3,3 +3,11 @@
     text-align: center;
     margin-top: 3%;
 }
+
+.resume-button {
+    background: white;
+}
+
+.resume-button:hover {
+    border: 1px solid white;
+}

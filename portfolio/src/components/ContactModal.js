@@ -17,7 +17,7 @@ const ContactModal = () => {
     
     return (
         <div>
-        <Button variant="primary" onClick={handleShow}>
+        <Button className="resume-button" onClick={handleShow}>
             Send me a Message
         </Button>
         <Modal

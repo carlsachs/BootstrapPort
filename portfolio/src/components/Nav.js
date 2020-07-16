@@ -9,6 +9,9 @@ import Button from "react-bootstrap/Button";
 //import images
 import github from "./Procards/images/github.png";
 
+//import other components
+import ContactModal from "./ContactModal";
+
 //import css
 import "./Nav.css";
 
@@ -26,10 +29,11 @@ const Nav1 = () => {
                     <NavDropdown.Item href="https://www.twitter.com/CarltonSachs" target="_blank">Follow me on Twitter</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="https://www.linkedin.com/in/carl-sachs/" target="_blank">Connect on LinkedIn</NavDropdown.Item>
+                    <NavDropdown.Item><ContactModal /></NavDropdown.Item>
                 </NavDropdown>
                 </Nav>
                 <Nav className="nav-left">
-                <Nav.Link href="https://github.com/carlsachs" target="_blank" style={{color: "aliceblue"}}><img src={github} alt="github logo" /></Nav.Link>
+                <Nav.Link href="https://github.com/carlsachs" target="_blank" style={{justifyContent: "center", color: "aliceblue"}}><img src={github} alt="github logo" /></Nav.Link>
                 <Button variant="light" className="resume-button">My Resume</Button>
                 </Nav>
             </Navbar.Collapse>

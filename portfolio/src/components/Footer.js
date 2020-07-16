@@ -6,6 +6,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
+//import other local components
+import Modal from "./ContactModal";
+
 const Footer = () => {
 
     return (
@@ -34,7 +37,7 @@ const Footer = () => {
                     </Row>
                 </Col>
                 <Col className="right">
-                
+                    <Modal />
                 </Col>
             </Row>
         </Container>

@@ -24,7 +24,7 @@ const Readrr = () => {
             <ListGroup className="list-group-flush">
                 <ListGroupItem><b>Complexity:</b>  Advanced</ListGroupItem>
                 <ListGroupItem><b>Language:</b>  React Native/Node</ListGroupItem>
-                <ListGroupItem><b>Time Allotted:</b>  2 Months</ListGroupItem>
+                <ListGroupItem><b>Time Allotted:</b>  2 Months LP: 30min</ListGroupItem>
             </ListGroup>
             <Card.Body className="bottom">
                 <Card.Link href="https://readrr.app/">Demo</Card.Link>

@@ -17,7 +17,7 @@ const ContactModal = () => {
     
     return (
         <div>
-        <Button variant="primary" onClick={handleShow}>
+        <Button className="resume-button" onClick={handleShow}>
             Send me a Message
         </Button>
         <Modal
@@ -36,7 +36,6 @@ const ContactModal = () => {
           <Button variant="danger" onClick={handleClose}>
             Cancel
           </Button>
-          <Button variant="success">Send</Button>
         </Modal.Footer>
       </Modal>
       </div>

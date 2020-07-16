@@ -4,14 +4,18 @@
 
 .left {
     background: #1890ff;
-}
-
-.middle {
-    background: #096dd9;
+    padding-top: 1.5%;
 }
 
 .right {
-    background: #0050b3;
+    padding-top: 1%;
+    margin-bottom: 1%;
+}
+
+.footerRow {
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .linked {

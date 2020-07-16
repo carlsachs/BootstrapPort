@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 //import bootstrap and css
 import "./ModalForm.css";
@@ -7,21 +8,21 @@ import Button from "react-bootstrap/Button";
 
 const ModalForm = () => {
 
-    const submit = (e) => {
-        e.preventDefault()
-        fetch("https://hooks.zapier.com/hooks/catch/8041428/ozgc3ch/", {
-            method: "POST",
-            body: JSON.stringify({ name, email, message })
-        }).then(() => alert("Success! I will get back to you promptly!"))
-        .catch(() => alert("Oh No!  Please try again!"))
-    }
-
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
 
+    const submit = e => {
+        e.preventDefault()
+        fetch(`https://hooks.zapier.com/hooks/catch/8041428/ozlzf1m`, {
+            method: "POST",
+            body: JSON.stringify({ name, email, message }),
+        }).then(() => alert("Success! I will get back to you promptly!"))
+        .catch(() => alert("Oh No!  Please try again!"))
+    }
+
     return (
-        <Form onSubmit={submit}>
+        <Form>
             <Form.Group>
                 <Form.Label>Name</Form.Label>
                 <Form.Control placeholder="What is your name?" onChange={(e) => setName(e.target.value)} />
@@ -37,7 +38,7 @@ const ModalForm = () => {
                 <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" placeholder="Type message here, and I will respond promptly" onChange={(e) => setMessage(e.target.value)}/>
             </Form.Group>
-            <Button type="submit">Send</Button>
+            <Button type="submit" onClick={submit}>Send</Button>
         </Form>
     )
 }

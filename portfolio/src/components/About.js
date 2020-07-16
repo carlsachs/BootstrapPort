@@ -9,6 +9,7 @@ import { Flip, Slide, Fade, Bounce } from "react-reveal";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
+import DownloadLink from "react-download-link";
 
 import "./About.css";
 
@@ -20,6 +21,7 @@ import pistons from "../images/pistons.jpg";
 //import other components
 import Nav1 from "./Nav";
 import Footer from "./Footer";
+import ContactModal from "./ContactModal";
 
 const About = () => {
 
@@ -78,7 +80,6 @@ const About = () => {
                         <Card.Text>
                             I am currently in school remotely in Detroit, Michigan.  I prefer to stay remote, but am open to relocating West.
                         </Card.Text>
-                        <Card.Link href="#">My Resume</Card.Link>
                         </Card.Body>
                     </Card>
                 </Row>
@@ -97,7 +98,6 @@ const About = () => {
                     <Card.Text>
                         I am currently open for opportunities.  I would love to work with React, possibly using redux, bootstrap, materialUI, etc.
                     </Card.Text>
-                    <Card.Link id="location-resume" href="https://mail.google.com/mail/?view=cm&fs=1&to=sachscarl@gmail.com&su=Inquiry&body=Thank you for taking the time to send me a message.  I will get back to you promptly!" target="_blank">Send me a message</Card.Link>
                     </Card.Body>
                 </Card>
                 </Row>
@@ -116,7 +116,6 @@ const About = () => {
                     <Card.Text>
                         I am open to relocation. Although if this is the case, I would preferable relocate into the heart of tech on the west coast.  Seattle, San Diego, etc.
                     </Card.Text>
-                    <Card.Link id="location-resume" href="https://mail.google.com/mail/?view=cm&fs=1&to=sachscarl@gmail.com&su=Inquiry&body=Thank you for taking the time to send me a message.  I will get back to you promptly!" target="_blank">Ask me about relocation</Card.Link>
                     </Card.Body>
                 </Card>
                 </Row>

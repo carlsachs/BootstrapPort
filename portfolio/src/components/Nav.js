@@ -12,6 +12,9 @@ import github from "./Procards/images/github.png";
 //import other components
 import ContactModal from "./ContactModal";
 
+//import other components
+import DownloadLink from "react-download-link";
+
 //import css
 import "./Nav.css";
 
@@ -32,7 +35,7 @@ const Nav1 = () => {
                 </Nav>
                 <Nav className="nav-left">
                 <ContactModal />
-                <Button variant="light" className="resume-button">My Resume</Button>
+                <Button variant="light" className="resume-button"><DownloadLink style={{textDecoration: "none"}} label="Download Resume" filename="Carl-Sachs-Resume.pdf" exportFile={() => "My cached data"} /></Button>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

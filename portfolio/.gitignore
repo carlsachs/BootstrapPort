@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
+=======
+
+/src/components/ModalForm.js
+>>>>>>> 4b3d383870b9fa9511b4e3e54c5e139ff83fa944

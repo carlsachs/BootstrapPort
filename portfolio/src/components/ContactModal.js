@@ -27,7 +27,7 @@ const ContactModal = () => {
             keyboard={false}
         >
         <Modal.Title>
-          How can I help you?
+          Send a Message to me
         </Modal.Title>
         <Modal.Body>
           <ModalForm />

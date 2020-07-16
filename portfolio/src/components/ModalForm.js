@@ -3,15 +3,17 @@ import React, { useState } from "react";
 //import bootstrap and css
 import "./ModalForm.css";
 import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
 const ModalForm = () => {
 
     const submit = (e) => {
         e.preventDefault()
-        fetch("", {
+        fetch("https://hooks.zapier.com/hooks/catch/8041428/ozgc3ch/", {
             method: "POST",
             body: JSON.stringify({ name, email, message })
-        }).then(() => alert("Message Successfully sent!  Thank you!")).catch(() => alert("There was an error sending your message, please try again"))
+        }).then(() => alert("Success! I will get back to you promptly!"))
+        .catch(() => alert("Oh No!  Please try again!"))
     }
 
     const [name, setName] = useState("")
@@ -35,6 +37,7 @@ const ModalForm = () => {
                 <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" placeholder="Type message here, and I will respond promptly" onChange={(e) => setMessage(e.target.value)}/>
             </Form.Group>
+            <Button type="submit">Send</Button>
         </Form>
     )
 }

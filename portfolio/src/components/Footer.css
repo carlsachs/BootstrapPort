@@ -8,6 +8,13 @@
 
 .middle {
     background: #096dd9;
+    justify-content: center;
+}
+
+.footerRow {
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .right {

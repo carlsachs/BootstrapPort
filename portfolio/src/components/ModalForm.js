@@ -18,7 +18,7 @@ const ModalForm = () => {
             method: "POST",
             body: JSON.stringify({ name, email, message }),
         }).then(() => alert("Success! I will get back to you promptly!"))
-        .catch(() => alert("Oh No!  Please try again!"))
+        .catch(() => alert("Error!  Please try again!"))
     }
 
     return (
@@ -36,7 +36,7 @@ const ModalForm = () => {
             </Form.Group>
             <Form.Group>
                 <Form.Label>Message</Form.Label>
-                <Form.Control as="textarea" placeholder="Type message here, and I will respond promptly" onChange={(e) => setMessage(e.target.value)}/>
+                <Form.Control placeholder="Type message here, and I will respond promptly" onChange={(e) => setMessage(e.target.value)}/>
             </Form.Group>
             <Button type="submit" onClick={submit}>Send</Button>
         </Form>

@@ -36,7 +36,6 @@ const ContactModal = () => {
           <Button variant="danger" onClick={handleClose}>
             Cancel
           </Button>
-          <Button variant="success">Send</Button>
         </Modal.Footer>
       </Modal>
       </div>

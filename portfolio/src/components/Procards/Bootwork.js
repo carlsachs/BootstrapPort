@@ -26,8 +26,8 @@ const Bootwork = () => {
                 <ListGroupItem><b>Time Allotted:</b>  1 Month (Nights)</ListGroupItem>
             </ListGroup>
             <Card.Body className="bottom">
-                <Card.Link href="https://bootwork.app/">Website</Card.Link>
-                <Card.Link href="https://www.facebook.com/BootWorkOfficial">Facebook Page</Card.Link>
+                <Card.Link target="_blank" href="https://bootwork.app/">Website</Card.Link>
+                <Card.Link target="_blank" href="https://www.facebook.com/BootWorkOfficial">Facebook Page</Card.Link>
             </Card.Body>
         </Card>
     )

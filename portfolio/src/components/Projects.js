@@ -40,7 +40,7 @@ const Projects = () => {
                 </Fade>
                 <Row>
                     <div className="repo">
-                        <h3>Find all my repos <Link target="_blank"style={{textDecoration: "none", color: "white"}} to="https://github.com/carlsachs/repositories">here</Link></h3>
+                        <h3>Find all my repos <a target="_blank"style={{textDecoration: "none", color: "white"}} href="https://github.com/carlsachs/repositories">here</a></h3>
                     </div>
                 </Row>
                 <Row>
@@ -51,7 +51,7 @@ const Projects = () => {
                 <Col>
                     <Flip top delay={850}>
                         <div className="front-mid">
-                            <Link target="_blank" to="https://github.com/carlsachs"
+                            <a target="_blank" href="https://github.com/carlsachs"
                             style={{
                                 width: "80%",
                                 textDecoration: "none",
@@ -64,7 +64,7 @@ const Projects = () => {
                                 marginTop: "4%"
 
 
-                            }}>Follow me on Github</Link>
+                            }}>Follow me on Github</a>
                         </div>
                     </Flip>
                 </Col>

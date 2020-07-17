@@ -22,3 +22,10 @@
     text-align: center;
     color: #003a8c;
 }
+
+.skillbox-title h3 {
+    font-size: 2rem;
+    color: #1890ff;
+    text-align: center;
+    margin: 0 auto;
+}

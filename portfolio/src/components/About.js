@@ -114,7 +114,7 @@ const About = () => {
                     <Card.Title>Preference: West Coast</Card.Title>
                     <Card.Subtitle className="mb-2 text">Right in the heart of tech!</Card.Subtitle>
                     <Card.Text>
-                        I am open to relocation. Although if this is the case, I would preferable relocate into the heart of tech on the west coast.  Seattle, San Diego, etc.
+                        I am open to relocation. Although if this is the case, I would preferably relocate into the heart of tech on the west coast.  Seattle, San Diego, etc.
                     </Card.Text>
                     </Card.Body>
                 </Card>

@@ -1,5 +1,6 @@
 .main-nav {
-    background: #096dd9;
+    background: rgb(24,144,255);
+background: linear-gradient(0deg, rgba(24,144,255,0.7441351540616247) 0%, rgba(28,131,227,0.9262079831932774) 100%);
 }
 
 #collasible-nav-dropdown {

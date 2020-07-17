@@ -51,7 +51,7 @@ const Projects = () => {
                 <Col>
                     <Flip top delay={850}>
                         <div className="front-mid">
-                            <a target="_blank" href="https://github.com/carlsachs"
+                            <a className="follow" target="_blank" href="https://github.com/carlsachs"
                             style={{
                                 width: "80%",
                                 textDecoration: "none",
@@ -62,8 +62,6 @@ const Projects = () => {
                                 borderRadius: "10px",
                                 marginBottom: "4%",
                                 marginTop: "4%"
-
-
                             }}>Follow me on Github</a>
                         </div>
                     </Flip>

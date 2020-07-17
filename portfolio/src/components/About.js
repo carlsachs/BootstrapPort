@@ -30,12 +30,16 @@ const About = () => {
             <Nav1 />
             <Row className="top-about">
                 <Col className="name-title">
+                    <Slide left>
                     <Row className="name">
                         <h2>Carl Sachs</h2>
                     </Row>
+                    </Slide>
+                    <Slide bottom>
                     <Row className="title-developer">
                         <h3>Web Developer</h3>
                     </Row>
+                    </Slide>
                 </Col>
 
                 <Col className="d-none d-md-block" md={0} style={{marginTop: "12%"}}>
@@ -50,7 +54,7 @@ const About = () => {
             <Row>
                 <Slide left>
                 <Row className="lambda-top">
-                    <h4>When I joined Lambda, I had never really coded a day in my life.  That changed quickly.  To check out the curriculum I have followed this year, click <Link to="">here.</Link></h4>
+                    <h4>When I joined Lambda, I had never really coded a day in my life.  That changed quickly.  Lambda's skills have allowed me to explore the world of code with a level of interpretation I couldn't have imagined a year ago.</h4>
                 </Row>
                 </Slide>
                 <Slide right>
@@ -78,7 +82,7 @@ const About = () => {
                         <Card.Title>Current: Detroit</Card.Title>
                         <Card.Subtitle className="mb-2 text">Student @ Lambda</Card.Subtitle>
                         <Card.Text>
-                            I am currently in school remotely in Detroit, Michigan.  I prefer to stay remote, but am open to relocating West.
+                            I am currently in school remotely in Detroit, Michigan.  I prefer to stay remote, but will go where the opportunities take me.
                         </Card.Text>
                         </Card.Body>
                     </Card>

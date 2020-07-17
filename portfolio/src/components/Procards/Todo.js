@@ -26,7 +26,7 @@ const Todo = () => {
                 <ListGroupItem><b>Time Allotted:</b>  1 Hour</ListGroupItem>
             </ListGroup>
             <Card.Body className="bottom">
-                <Card.Link href="https://github.com/carlsachs/node-db-challenge">Repository</Card.Link>
+                <Card.Link target="_blank" href="https://github.com/carlsachs/node-db-challenge">Repository</Card.Link>
             </Card.Body>
         </Card>
     )

@@ -27,8 +27,8 @@ const Readrr = () => {
                 <ListGroupItem><b>Time Allotted:</b>  2 Months LP: 30min</ListGroupItem>
             </ListGroup>
             <Card.Body className="bottom">
-                <Card.Link href="https://readrr.app/">Demo</Card.Link>
-                <Card.Link href="https://github.com/Lambda-School-Labs/betterreads-fe">Repository</Card.Link>
+                <Card.Link target="_blank" href="https://readrr.app/">Demo</Card.Link>
+                <Card.Link target="_blank" href="https://github.com/Lambda-School-Labs/betterreads-fe">Repository</Card.Link>
             </Card.Body>
         </Card>
     )

@@ -27,7 +27,7 @@ const Portfolio = () => {
             </ListGroup>
             <Card.Body>
                 <Card.Link href="/">Home</Card.Link>
-                <Card.Link href="https://github.com/carlsachs/BootstrapPort">Repository</Card.Link>
+                <Card.Link target="_blank" href="https://github.com/carlsachs/BootstrapPort">Repository</Card.Link>
             </Card.Body>
         </Card>
     )

@@ -26,7 +26,7 @@ const Middleware = () => {
                 <ListGroupItem><b>Time Allotted:</b>  1 Hour</ListGroupItem>
             </ListGroup>
             <Card.Body className="bottom">
-                <Card.Link href="https://github.com/carlsachs/node-api3-project">Repository</Card.Link>
+                <Card.Link target="_blank" href="https://github.com/carlsachs/node-api3-project">Repository</Card.Link>
             </Card.Body>
         </Card>
     )

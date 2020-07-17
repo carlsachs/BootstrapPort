@@ -26,7 +26,7 @@ const Db3 = () => {
                 <ListGroupItem><b>Time Allotted:</b>  Few Hours</ListGroupItem>
             </ListGroup>
             <Card.Body className="bottom">
-                <Card.Link href="https://github.com/carlsachs/node-auth2-project">Repository</Card.Link>
+                <Card.Link target="_blank" href="https://github.com/carlsachs/node-auth2-project">Repository</Card.Link>
             </Card.Body>
         </Card>
     )

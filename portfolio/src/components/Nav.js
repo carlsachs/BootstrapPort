@@ -15,6 +15,8 @@ import ContactModal from "./ContactModal";
 //import other components
 import DownloadLink from "react-download-link";
 
+import "./Carl-Sachs-Resume.pdf";
+
 //import css
 import "./Nav.css";
 
@@ -35,7 +37,7 @@ const Nav1 = () => {
                 </Nav>
                 <Nav className="nav-left">
                 <ContactModal />
-                <Button variant="light" className="resume-button"><DownloadLink style={{textDecoration: "none"}} label="Download Resume" filename="Carl-Sachs-Resume.pdf" exportFile={() => "My cached data"} /></Button>
+                <a href={require("./Carl-Sachs-Resume.pdf")} style={{textDecoration: "none", padding: "2%", borderRadius: "3px"}} className="resume-button" download="Carl'sResume">Download Resume</a>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

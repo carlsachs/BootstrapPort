@@ -45,10 +45,8 @@
 
 .resume-button {
     color: #096dd9;
-}
-
-.nav-dropdown-item {
-    background: red;
+    text-align: center;
+    padding-top: 1%;
 }
 
 .resume-button:hover {

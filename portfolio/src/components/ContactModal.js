@@ -17,7 +17,7 @@ const ContactModal = () => {
     
     return (
         <div>
-        <Button className="resume-button" onClick={handleShow}>
+        <Button className="resume-button" style={{paddingTop: "5%", paddingBottom: "5%"}} onClick={handleShow}>
             Send me a Message
         </Button>
         <Modal

@@ -28,13 +28,11 @@ const Skills = () => {
                     </Row>
             </Row>
             <Row className="skillbox">
-                <Col>
                     <Fade bottom>
                     <Row className= "skillbox-title">
                         <h3>This is a complete list of my skills, and I will add to it as needed.</h3>
                     </Row>
                     </Fade>
-                </Col>
             </Row>
         </Container>
     )

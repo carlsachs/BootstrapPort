@@ -29,3 +29,13 @@
     text-align: center;
     margin: 0 auto;
 }
+
+.skillbox {
+    justify-content: center;
+}
+
+.skills-cards {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}

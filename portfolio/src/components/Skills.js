@@ -3,6 +3,7 @@ import React from "react";
 //import bootstrap and css / other styling components
 import "./Skills.css";
 import Container from "react-bootstrap/Container";
+import Card from "react-bootstrap/Card";
 import { Row, Col } from "react-bootstrap";
 import { Fade } from "react-reveal";
 
@@ -29,10 +30,23 @@ const Skills = () => {
             </Row>
             <Row className="skillbox">
                     <Fade bottom>
-                    <Row className= "skillbox-title">
+                    <Row className="skillbox-title">
                         <h3>This is a complete list of my skills, and I will add to it as needed.</h3>
                     </Row>
                     </Fade>
+                    <Row className="skills-cards">
+                        <Card body>HTML</Card>
+                        <Card body>CSS</Card>
+                        <Card body>React.js</Card>
+                        <Card body>Node.js</Card>
+                        <Card body>Python</Card>
+                        <Card body>TypeScript</Card>
+                        <Card body>MySQL</Card>
+                        <Card body>PostgresQL</Card>
+                        <Card body>Publishing npm libraries</Card>
+                        <Card body>Firebase</Card>
+                        <Card body>PostgresQL</Card>
+                    </Row>
             </Row>
         </Container>
     )

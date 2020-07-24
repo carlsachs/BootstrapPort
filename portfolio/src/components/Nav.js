@@ -12,9 +12,6 @@ import github from "./Procards/images/github.png";
 //import other components
 import ContactModal from "./ContactModal";
 
-//import other components
-import DownloadLink from "react-download-link";
-
 import "./Carl-Sachs-Resume.pdf";
 
 //import css
@@ -37,7 +34,7 @@ const Nav1 = () => {
                 </Nav>
                 <Nav className="nav-left">
                 <ContactModal />
-                <a href={require("./Carl-Sachs-Resume.pdf")} style={{textDecoration: "none", padding: "2%", borderRadius: "3px"}} className="resume-button" download="Carl'sResume">Download Resume</a>
+                <a href={require("./Carl-Sachs-Resume.pdf")} style={{textDecoration: "none", padding: "2%", borderRadius: "3px"}} className="resume-button" download="Carl's Resume">Download Resume</a>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

@@ -84,12 +84,12 @@ const Projects = () => {
             </Fade>
             <Fade bottom>
             <Col>
-                <Bootwork />
+                <Cyphen />
             </Col>
             </Fade>
             <Fade bottom>
             <Col>
-                <Cyphen />
+                <Bootwork />
             </Col>
             </Fade>
             <Fade bottom>
@@ -132,37 +132,6 @@ const Projects = () => {
             <Fade bottom>
                 <Col>
                 <Middleware />
-                </Col>
-            </Fade>
-            </Row>
-        </Slide>
-        <Row className="cs-top">
-            <Flip bottom>
-                <div>
-                    <h2 id="cs-title-id">Computer Science</h2>
-                </div>
-            </Flip>
-        </Row>
-        <Slide left>
-            <Row className="cs-boxes">
-            <Fade bottom>
-                <Col>
-                    <Readrr />
-                </Col>
-            </Fade>
-            <Fade bottom>
-                <Col>
-                    <Bootwork />
-                </Col>
-            </Fade>
-            <Fade bottom>
-                <Col>
-                    <Cyphen />
-                </Col>
-            </Fade>
-            <Fade bottom>
-                <Col>
-                    <InstaClone />
                 </Col>
             </Fade>
             </Row>

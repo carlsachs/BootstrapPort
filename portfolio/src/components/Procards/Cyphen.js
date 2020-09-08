@@ -17,7 +17,7 @@ const MedCabinet = () => {
             <Card.Body>
                 <Card.Title>Cyphen Development</Card.Title>
                 <Card.Text>
-                My side business.  Website still in dev.
+                Website in dev.  Creating web applications for businesses.
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
@@ -26,7 +26,7 @@ const MedCabinet = () => {
                 <ListGroupItem><b>Time Allotted:</b>  2 Weeks</ListGroupItem>
             </ListGroup>
             <Card.Body className="bottom">
-                <Card.Link target="_blank" href="https://med-cabinet-3.now.sh/">Demo</Card.Link>
+                <Card.Link target="_blank" href="https://cyphen-25583.web.app/">Website</Card.Link>
                 <Card.Link target="_blank" href="https://www.linkedin.com/company/cyphen-development">LinkedIn</Card.Link>
             </Card.Body>
         </Card>

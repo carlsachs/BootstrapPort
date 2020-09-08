@@ -17,7 +17,7 @@ const InstaClone = () => {
             <Card.Body>
                 <Card.Title>InstaClone</Card.Title>
                 <Card.Text>
-                One of my first front-end projects.  Interesting, so I threw it up here.
+                One of my first projects.  A good show of complexity improvement.
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">

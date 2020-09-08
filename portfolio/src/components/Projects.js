@@ -7,7 +7,7 @@ import { Fade, Flip, Slide } from "react-reveal";
 //other components
 import Readrr from "./Procards/Readrr";
 import Bootwork from "./Procards/Bootwork";
-import MedCabinet from "./Procards/MedCabinet";
+import Cyphen from "./Procards/Cyphen";
 import InstaClone from "./Procards/InstaClone";
 import Middleware from "./Procards/Middleware";
 import Todo from "./Procards/Todo";
@@ -89,7 +89,7 @@ const Projects = () => {
             </Fade>
             <Fade bottom>
             <Col>
-                <MedCabinet />
+                <Cyphen />
             </Col>
             </Fade>
             <Fade bottom>
@@ -157,7 +157,7 @@ const Projects = () => {
             </Fade>
             <Fade bottom>
                 <Col>
-                    <MedCabinet />
+                    <Cyphen />
                 </Col>
             </Fade>
             <Fade bottom>

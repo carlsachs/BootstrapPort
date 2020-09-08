@@ -27,9 +27,9 @@ const Nav1 = () => {
                 <Nav.Link href="/projects" id="projects-nav-item">Projects</Nav.Link>
                 <Nav.Link href="/about" id="about-nav-item">About Me</Nav.Link>
                 <NavDropdown title="Contact Me" id="collasible-nav-dropdown">
-                    <NavDropdown.Item href="https://www.twitter.com/CarltonSachs" target="_blank">Follow me on Twitter</NavDropdown.Item>
+                    <NavDropdown.Item href="https://www.twitter.com/CarltonSachs" target="_blank" style={{textAlign: "center"}}>My Twitter</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="https://www.linkedin.com/in/carl-sachs/" target="_blank">Connect on LinkedIn</NavDropdown.Item>
+                    <NavDropdown.Item href="https://www.linkedin.com/in/carl-sachs/" target="_blank" style={{textAlign: "center"}}>My LinkedIn</NavDropdown.Item>
                 </NavDropdown>
                 </Nav>
                 <Nav className="nav-left">

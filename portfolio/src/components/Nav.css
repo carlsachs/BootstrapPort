@@ -1,4 +1,5 @@
 .main-nav {
+    max-width: 100%;
     background: rgb(24,144,255);
     background: linear-gradient(0deg, rgba(24,144,255,0.8785889355742297) 0%, rgba(28,131,227,0.9626225490196079) 100%);
 }

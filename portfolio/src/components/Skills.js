@@ -35,17 +35,19 @@ const Skills = () => {
                     </Row>
                     </Fade>
                     <Row className="skills-cards">
-                        <Card body>HTML</Card>
-                        <Card body>CSS</Card>
-                        <Card body>React.js</Card>
-                        <Card body>Node.js</Card>
-                        <Card body>Python</Card>
-                        <Card body>TypeScript</Card>
-                        <Card body>MySQL</Card>
-                        <Card body>PostgresQL</Card>
-                        <Card body>Publishing npm libraries</Card>
-                        <Card body>Firebase</Card>
-                        <Card body>PostgresQL</Card>
+                        <Card body style={{margin: "1%"}}>HTML</Card>
+                        <Card body style={{margin: "1%"}}>CSS</Card>
+                        <Card body style={{margin: "1%"}}>React.js</Card>
+                        <Card body style={{margin: "1%"}}>Node.js</Card>
+                        <Card body style={{margin: "1%"}}>Python</Card>
+                        <Card body style={{margin: "1%"}}>TypeScript</Card>
+                        <Card body style={{margin: "1%"}}>MySQL</Card>
+                        <Card body style={{margin: "1%"}}>PostgresQL</Card>
+                        <Card body style={{margin: "1%"}}>Publishing npm libraries</Card>
+                        <Card body style={{margin: "1%"}}>Firebase</Card>
+                        <Card body style={{margin: "1%"}}>PostgresQL</Card>
+                        <Card body style={{margin: "1%"}}>React Native</Card>
+                        <Card body style={{margin: "1%"}}>Expo CLI</Card>
                     </Row>
             </Row>
         </Container>

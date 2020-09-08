@@ -11,6 +11,9 @@ import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 import DownloadLink from "react-download-link";
 
+//profile image
+import profile from "../images/profile.JPG"
+
 import "./About.css";
 
 //import images
@@ -26,7 +29,7 @@ import ContactModal from "./ContactModal";
 const About = () => {
 
     return (
-        <Container fluid>
+        <Container style={{margin: "0"}} fluid>
             <Nav1 />
             <Row className="top-about">
                 <Col className="name-title">
@@ -42,8 +45,15 @@ const About = () => {
                     </Slide>
                 </Col>
 
-                <Col className="d-none d-md-block" md={0} style={{marginTop: "12%"}}>
-                   <h2 style={{textAlign: "center", color: "aliceblue", fontSize: "3rem" }}>Image of myself here</h2>
+                <Col className="d-none d-md-block" md={0} style={{marginTop: "11%", marginLeft: "25%"}}>
+                <div>
+                   <img src={profile} alt="image of me and my pops" style={{
+                       height: "300px",
+                       width: "250px",
+                       display: "flex",
+                       justifyContent: "center"
+                   }} />
+                   </div>
                 </Col>
             </Row>
             <Flip bottom>

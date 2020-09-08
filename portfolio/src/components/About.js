@@ -176,7 +176,7 @@ const About = () => {
                             <Card.Body>
                             <Card.Title>College Stint</Card.Title>
                             <Card.Text>
-                                I attended Wayne State University's School of Business, but dropped out two years in after realizing that waiting (and paying) for my education and future wasn't worth it.  I wanted to act now.
+                               I attended Wayne State University in Downtown Detroit to pursue a career in Entrepreneurship.  I quickly realized that I could boost that career further with tech.
                             </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">

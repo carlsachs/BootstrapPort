@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import { Row, Col } from "react-bootstrap";
 import { Fade } from "react-reveal";
+import Footer from "./Footer";
 
 //import other components
 import Nav from "./Nav.js";
@@ -48,8 +49,11 @@ const Skills = () => {
                         <Card body style={{margin: "1%"}}>PostgresQL</Card>
                         <Card body style={{margin: "1%"}}>React Native</Card>
                         <Card body style={{margin: "1%"}}>Expo CLI</Card>
+                        <Card body style={{margin: "1%"}}>TailwindCSS</Card>
+                        <Card body style={{margin: "1%"}}>Knex.js</Card>
                     </Row>
             </Row>
+            <Footer />
         </Container>
     )
 }

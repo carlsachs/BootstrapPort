@@ -18,7 +18,7 @@ const Footer = () => {
             <Row className="footer-wrap">
                 <Col className="left">
                     <Row className="footerRow">
-                        <ContactModal />
+                    <a href={require("./Carl-Sachs-Resume.pdf")} style={{textDecoration: "none", padding: "2%", borderRadius: "3px"}} className="resume-button" download="Carl's Resume">Download Resume</a>
                     </Row>
                 </Col>
                 <Col className="right">
@@ -32,7 +32,7 @@ const Footer = () => {
                         <a id="gmail-footer" href="https://mail.google.com/mail/?view=cm&fs=1&to=sachscarl@gmail.com" style={{textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Gmail</a>
                     </Row>
                     <Row style={{justifyContent: "center"}}>
-                        <h3 style={{textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Phone: 313-330-7308 (Call or Text)</h3>
+                        <h3 style={{textDecoration: "none", color: "white", fontSize: "1.2rem", textAlign: "center" }}>Phone: 313-330-7308 (Call or Text)</h3>
                     </Row>
                 </Col>
             </Row>

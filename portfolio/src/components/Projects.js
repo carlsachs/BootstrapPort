@@ -39,11 +39,6 @@ const Projects = () => {
                     </Row>
                 </Fade>
                 <Row>
-                    <div className="repo">
-                        <h3>Find all my repos <a target="_blank"style={{textDecoration: "none", color: "white"}} href="https://github.com/carlsachs/repositories">here</a></h3>
-                    </div>
-                </Row>
-                <Row>
                     <div className="repo1">
                         <h3>Compiled list of my skills <Link style={{textDecoration: "none", color: "white"}} to="/skills">here</Link></h3>
                     </div>

@@ -9,7 +9,7 @@
 ----
 
 ### The official link is:
-## https://www.carlsachs.com
+## carlsachs.com
 
 -----
 

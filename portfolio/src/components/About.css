@@ -2,9 +2,9 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    margin-top: 3%;
     margin-bottom: 3%;
-    background-color: #1890ff;
+    background: rgb(24,144,255);
+    background: radial-gradient(circle, rgba(24,144,255,0.8449754901960784) 0%, rgba(28,131,227,1) 100%);
     height: 500px;
 }
 
@@ -22,7 +22,8 @@
 
 .name-title {
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 13%;
+    margin-left: 10%;
 }
 
 .name {

@@ -9,7 +9,9 @@ import { Flip, Slide, Fade, Bounce } from "react-reveal";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
-import DownloadLink from "react-download-link";
+
+//profile image
+import profile from "../images/profile.png"
 
 import "./About.css";
 
@@ -21,25 +23,36 @@ import pistons from "../images/pistons.jpg";
 //import other components
 import Nav1 from "./Nav";
 import Footer from "./Footer";
-import ContactModal from "./ContactModal";
 
 const About = () => {
 
     return (
-        <Container fluid>
+        <Container style={{margin: "0"}} fluid>
             <Nav1 />
             <Row className="top-about">
                 <Col className="name-title">
+                    <Slide left>
                     <Row className="name">
                         <h2>Carl Sachs</h2>
                     </Row>
+                    </Slide>
+                    <Slide bottom>
                     <Row className="title-developer">
-                        <h3>Web Developer</h3>
+                        <h3>Full-Stack Web Developer</h3>
                     </Row>
+                    </Slide>
                 </Col>
 
-                <Col className="d-none d-md-block" md={0} style={{marginTop: "12%"}}>
-                   <h2 style={{textAlign: "center", color: "aliceblue", fontSize: "3rem" }}>Image of myself here</h2>
+                <Col className="d-none d-md-block" md={0} style={{marginTop: "7%", marginLeft: "25%"}}>
+                <div>
+                   <img src={profile} alt="image of me and my pops" style={{
+                       height: "300px",
+                       width: "250px",
+                       display: "flex",
+                       justifyContent: "center",
+                       borderRadius: "10%"
+                   }} />
+                   </div>
                 </Col>
             </Row>
             <Flip bottom>
@@ -50,7 +63,7 @@ const About = () => {
             <Row>
                 <Slide left>
                 <Row className="lambda-top">
-                    <h4>When I joined Lambda, I had never really coded a day in my life.  That changed quickly.  To check out the curriculum I have followed this year, click <Link to="">here.</Link></h4>
+                    <h4>When I joined Lambda, I had never really coded a day in my life.  That changed quickly.  Lambda's skills have allowed me to explore the world of code with a level of interpretation I couldn't have imagined a year ago.</h4>
                 </Row>
                 </Slide>
                 <Slide right>
@@ -78,7 +91,7 @@ const About = () => {
                         <Card.Title>Current: Detroit</Card.Title>
                         <Card.Subtitle className="mb-2 text">Student @ Lambda</Card.Subtitle>
                         <Card.Text>
-                            I am currently in school remotely in Detroit, Michigan.  I prefer to stay remote, but am open to relocating West.
+                            I am currently in school remotely in Detroit, Michigan.  I prefer to stay remote, but will go where the opportunities take me.
                         </Card.Text>
                         </Card.Body>
                     </Card>
@@ -114,7 +127,7 @@ const About = () => {
                     <Card.Title>Preference: West Coast</Card.Title>
                     <Card.Subtitle className="mb-2 text">Right in the heart of tech!</Card.Subtitle>
                     <Card.Text>
-                        I am open to relocation. Although if this is the case, I would preferable relocate into the heart of tech on the west coast.  Seattle, San Diego, etc.
+                        I am open to relocation. Although if this is the case, I would preferably relocate into the heart of tech on the west coast.  Seattle, San Diego, etc.
                     </Card.Text>
                     </Card.Body>
                 </Card>
@@ -162,11 +175,11 @@ const About = () => {
                             <Card.Body>
                             <Card.Title>College Stint</Card.Title>
                             <Card.Text>
-                                I attended Wayne State University's School of Business, but dropped out two years in after realizing that waiting (and paying) for my education and future wasn't worth it.  I wanted to act now.
+                               I attended Wayne State University in Downtown Detroit to pursue a career in Entrepreneurship.  I quickly realized that I could boost that career further with tech.
                             </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                            <ListGroupItem>Major: Business Admin</ListGroupItem>
+                            <ListGroupItem>Major: Entrepreneurship</ListGroupItem>
                             <ListGroupItem>Minor: Finance</ListGroupItem>
                             <ListGroupItem>Time Management Skills</ListGroupItem>
                             </ListGroup>

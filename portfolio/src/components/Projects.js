@@ -6,13 +6,17 @@ import { Fade, Flip, Slide } from "react-reveal";
 
 //other components
 import Readrr from "./Procards/Readrr";
-import Bootwork from "./Procards/Bootwork";
 import MedCabinet from "./Procards/MedCabinet";
+import Cyphen from "./Procards/Cyphen";
 import InstaClone from "./Procards/InstaClone";
 import Middleware from "./Procards/Middleware";
 import Todo from "./Procards/Todo";
 import Db3 from "./Procards/Db3";
 import Authentication from "./Procards/Authentication";
+import CarltonBot from "./Procards/CarltonBot";
+import Conway from "./Procards/Conway";
+import Comp from "./Procards/Comp";
+import Algo from "./Procards/Algo";
 import Footer from "./Footer";
 
 //images
@@ -39,11 +43,6 @@ const Projects = () => {
                     </Row>
                 </Fade>
                 <Row>
-                    <div className="repo">
-                        <h3>Find all my repos <Link target="_blank"style={{textDecoration: "none", color: "white"}} to="https://github.com/carlsachs/repositories">here</Link></h3>
-                    </div>
-                </Row>
-                <Row>
                     <div className="repo1">
                         <h3>Compiled list of my skills <Link style={{textDecoration: "none", color: "white"}} to="/skills">here</Link></h3>
                     </div>
@@ -51,7 +50,7 @@ const Projects = () => {
                 <Col>
                     <Flip top delay={850}>
                         <div className="front-mid">
-                            <Link target="_blank" to="https://github.com/carlsachs"
+                            <a className="follow" target="_blank" href="https://github.com/carlsachs"
                             style={{
                                 width: "80%",
                                 textDecoration: "none",
@@ -62,9 +61,7 @@ const Projects = () => {
                                 borderRadius: "10px",
                                 marginBottom: "4%",
                                 marginTop: "4%"
-
-
-                            }}>Follow me on Github</Link>
+                            }}>Follow me on Github</a>
                         </div>
                     </Flip>
                 </Col>
@@ -86,7 +83,7 @@ const Projects = () => {
             </Fade>
             <Fade bottom>
             <Col>
-                <Bootwork />
+                <Cyphen />
             </Col>
             </Fade>
             <Fade bottom>
@@ -138,37 +135,35 @@ const Projects = () => {
             </Fade>
             </Row>
         </Slide>
-        <Row className="cs-top">
+        <Row className="front-top">
             <Flip bottom>
                 <div>
-                    <h2 id="cs-title-id">Computer Science</h2>
+                    <h2 id="front-end-title">Computer Science</h2>
                 </div>
             </Flip>
         </Row>
-        <Slide left>
-            <Row className="cs-boxes">
+        <Row className="front-boxes">
             <Fade bottom>
-                <Col>
-                    <Readrr />
-                </Col>
+            <Col>
+                <CarltonBot />
+            </Col>
             </Fade>
             <Fade bottom>
-                <Col>
-                    <Bootwork />
-                </Col>
+            <Col>
+                <Conway />
+            </Col>
             </Fade>
             <Fade bottom>
-                <Col>
-                    <MedCabinet />
-                </Col>
+            <Col>
+                <Comp />
+            </Col>
             </Fade>
             <Fade bottom>
-                <Col>
-                    <InstaClone />
-                </Col>
+            <Col>
+                <Algo />
+            </Col>
             </Fade>
-            </Row>
-        </Slide>
+        </Row>
         <Slide right>
             <Footer />
         </Slide>

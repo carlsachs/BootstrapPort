@@ -24,11 +24,11 @@ const Readrr = () => {
             <ListGroup className="list-group-flush">
                 <ListGroupItem><b>Complexity:</b>  Advanced</ListGroupItem>
                 <ListGroupItem><b>Language:</b>  React Native/Node</ListGroupItem>
-                <ListGroupItem><b>Time Allotted:</b>  2 Months LP: 30min</ListGroupItem>
+                <ListGroupItem><b>Time Allotted:</b>  2 Months</ListGroupItem>
             </ListGroup>
             <Card.Body className="bottom">
-                <Card.Link href="https://readrr.app/">Demo</Card.Link>
-                <Card.Link href="https://github.com/Lambda-School-Labs/betterreads-fe">Repository</Card.Link>
+                <Card.Link target="_blank" href="https://readrr.app/" onClick={() => alert("I had nothing to do with the Landing Page!")}>Live App</Card.Link>
+                <Card.Link target="_blank" href="https://github.com/Lambda-School-Labs/betterreads-fe">Repository</Card.Link>
             </Card.Body>
         </Card>
     )

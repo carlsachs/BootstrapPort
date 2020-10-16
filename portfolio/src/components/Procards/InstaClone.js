@@ -17,7 +17,7 @@ const InstaClone = () => {
             <Card.Body>
                 <Card.Title>InstaClone</Card.Title>
                 <Card.Text>
-                One of my first front-end projects.  Interesting, so I threw it up here.
+                One of my first projects.  A good show of complexity improvement.
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
@@ -26,7 +26,7 @@ const InstaClone = () => {
                 <ListGroupItem><b>Time Allotted:</b> 2-3 Hours</ListGroupItem>
             </ListGroup>
             <Card.Body className="bottom">
-                <Card.Link href="https://github.com/carlsachs/React-Components-Insta-Clone">Repository</Card.Link>
+                <Card.Link target="_blank" href="https://github.com/carlsachs/React-Components-Insta-Clone">Repository</Card.Link>
             </Card.Body>
         </Card>
     )

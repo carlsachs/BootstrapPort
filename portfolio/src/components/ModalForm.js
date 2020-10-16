@@ -30,13 +30,10 @@ const ModalForm = () => {
             <Form.Group>
                 <Form.Label>Email</Form.Label>
                 <Form.Control type="email" placeholder="Enter Email" onChange={(e) => setEmail(e.target.value)}/>
-                <Form.Text className="text-muted">
-                    This is strictly for contact purposes, and will not be shared with anyone.
-                </Form.Text>
             </Form.Group>
             <Form.Group>
                 <Form.Label>Message</Form.Label>
-                <Form.Control placeholder="Type message here, and I will respond promptly" onChange={(e) => setMessage(e.target.value)}/>
+                <Form.Control placeholder="Type message here, I'll respond promptly" onChange={(e) => setMessage(e.target.value)}/>
             </Form.Group>
             <Button type="submit" onClick={submit}>Send</Button>
         </Form>

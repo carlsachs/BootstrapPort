@@ -3,9 +3,9 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    margin-top: 3%;
     margin-bottom: 3%;
-    background-color: #1890ff;
+    background: rgb(24,144,255);
+    background: radial-gradient(circle, rgba(24,144,255,0.8449754901960784) 0%, rgba(28,131,227,1) 100%);
     height: 500px;
 }
 
@@ -35,6 +35,7 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    margin-top: 3%;
 }
 
 .top-right {
@@ -75,6 +76,7 @@
    margin: 0 auto;
    padding: 3%;
    color: white;
+   
 }
 
 .back-boxes {
@@ -123,4 +125,7 @@
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+}
+.follow:hover {
+    opacity: 50%;
 }

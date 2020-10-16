@@ -26,7 +26,7 @@ const Authentication = () => {
                 <ListGroupItem><b>Time Allotted:</b>  Few Hours</ListGroupItem>
             </ListGroup>
             <Card.Body className="bottom">
-                <Card.Link href="https://github.com/carlsachs/Sprint-Challenge-Authentication">Repository</Card.Link>
+                <Card.Link target="_blank" href="https://github.com/carlsachs/Sprint-Challenge-Authentication">Repository</Card.Link>
             </Card.Body>
         </Card>
     )

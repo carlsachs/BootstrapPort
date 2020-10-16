@@ -6,9 +6,6 @@ import Nav from "react-bootstrap/Nav";
 import { NavDropdown } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-//import images
-import github from "./Procards/images/github.png";
-
 //import other components
 import ContactModal from "./ContactModal";
 
@@ -33,8 +30,7 @@ const Nav1 = () => {
                 </NavDropdown>
                 </Nav>
                 <Nav className="nav-left">
-                <ContactModal />
-                <a href={require("./Carl-Sachs-Resume.pdf")} style={{textDecoration: "none", padding: "2%", borderRadius: "3px"}} className="resume-button" download="Carl's Resume">Download Resume</a>
+                <a href={require("./FinalResume.pdf")} style={{textDecoration: "none", padding: "2%", borderRadius: "3px"}} className="resume-button" download="Carl's Resume">Download Resume</a>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

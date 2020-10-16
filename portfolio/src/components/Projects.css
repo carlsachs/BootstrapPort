@@ -126,4 +126,6 @@
     border-radius: 10px;
     text-align: center;
 }
-
+.follow:hover {
+    opacity: 50%;
+}

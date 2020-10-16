@@ -9,10 +9,9 @@ import { Flip, Slide, Fade, Bounce } from "react-reveal";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
-import DownloadLink from "react-download-link";
 
 //profile image
-import profile from "../images/profile.JPG"
+import profile from "../images/profile.png"
 
 import "./About.css";
 
@@ -24,7 +23,6 @@ import pistons from "../images/pistons.jpg";
 //import other components
 import Nav1 from "./Nav";
 import Footer from "./Footer";
-import ContactModal from "./ContactModal";
 
 const About = () => {
 
@@ -40,18 +38,19 @@ const About = () => {
                     </Slide>
                     <Slide bottom>
                     <Row className="title-developer">
-                        <h3>Web Developer</h3>
+                        <h3>Full-Stack Web Developer</h3>
                     </Row>
                     </Slide>
                 </Col>
 
-                <Col className="d-none d-md-block" md={0} style={{marginTop: "11%", marginLeft: "25%"}}>
+                <Col className="d-none d-md-block" md={0} style={{marginTop: "7%", marginLeft: "25%"}}>
                 <div>
                    <img src={profile} alt="image of me and my pops" style={{
                        height: "300px",
                        width: "250px",
                        display: "flex",
-                       justifyContent: "center"
+                       justifyContent: "center",
+                       borderRadius: "10%"
                    }} />
                    </div>
                 </Col>
@@ -180,7 +179,7 @@ const About = () => {
                             </Card.Text>
                             </Card.Body>
                             <ListGroup className="list-group-flush">
-                            <ListGroupItem>Major: Business Admin</ListGroupItem>
+                            <ListGroupItem>Major: Entrepreneurship</ListGroupItem>
                             <ListGroupItem>Minor: Finance</ListGroupItem>
                             <ListGroupItem>Time Management Skills</ListGroupItem>
                             </ListGroup>

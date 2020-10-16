@@ -6,13 +6,17 @@ import { Fade, Flip, Slide } from "react-reveal";
 
 //other components
 import Readrr from "./Procards/Readrr";
-import Bootwork from "./Procards/Bootwork";
+import MedCabinet from "./Procards/MedCabinet";
 import Cyphen from "./Procards/Cyphen";
 import InstaClone from "./Procards/InstaClone";
 import Middleware from "./Procards/Middleware";
 import Todo from "./Procards/Todo";
 import Db3 from "./Procards/Db3";
 import Authentication from "./Procards/Authentication";
+import CarltonBot from "./Procards/CarltonBot";
+import Conway from "./Procards/Conway";
+import Comp from "./Procards/Comp";
+import Algo from "./Procards/Algo";
 import Footer from "./Footer";
 
 //images
@@ -84,7 +88,7 @@ const Projects = () => {
             </Fade>
             <Fade bottom>
             <Col>
-                <Bootwork />
+                <MedCabinet />
             </Col>
             </Fade>
             <Fade bottom>
@@ -131,6 +135,35 @@ const Projects = () => {
             </Fade>
             </Row>
         </Slide>
+        <Row className="front-top">
+            <Flip bottom>
+                <div>
+                    <h2 id="front-end-title">Computer Science</h2>
+                </div>
+            </Flip>
+        </Row>
+        <Row className="front-boxes">
+            <Fade bottom>
+            <Col>
+                <CarltonBot />
+            </Col>
+            </Fade>
+            <Fade bottom>
+            <Col>
+                <Conway />
+            </Col>
+            </Fade>
+            <Fade bottom>
+            <Col>
+                <Comp />
+            </Col>
+            </Fade>
+            <Fade bottom>
+            <Col>
+                <Algo />
+            </Col>
+            </Fade>
+        </Row>
         <Slide right>
             <Footer />
         </Slide>

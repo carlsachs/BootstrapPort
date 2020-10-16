@@ -46,7 +46,6 @@ const Skills = () => {
                         <Card body style={{margin: "1%"}}>PostgresQL</Card>
                         <Card body style={{margin: "1%"}}>Publishing npm libraries</Card>
                         <Card body style={{margin: "1%"}}>Firebase</Card>
-                        <Card body style={{margin: "1%"}}>PostgresQL</Card>
                         <Card body style={{margin: "1%"}}>React Native</Card>
                         <Card body style={{margin: "1%"}}>Expo CLI</Card>
                         <Card body style={{margin: "1%"}}>TailwindCSS</Card>

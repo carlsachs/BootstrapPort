@@ -7,23 +7,23 @@ import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 
 //images
-import insta from "./images/insta.png";
+import lux from "./images/lux.png";
 
 const InstaClone = () => {
 
     return (
         <Card bg="light" style={{ width: '20rem' }}>
-            <Card.Img variant="top" src={insta} />
+            <Card.Img variant="top" src={lux} />
             <Card.Body>
-                <Card.Title>InstaClone</Card.Title>
+                <Card.Title>Crypto Luxury</Card.Title>
                 <Card.Text>
-                One of my first projects.  A good show of complexity improvement.
+                Client site, created with entire system of admin management.
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
-                <ListGroupItem><b>Complexity:</b>  Junior</ListGroupItem>
-                <ListGroupItem><b>Language:</b>  React</ListGroupItem>
-                <ListGroupItem><b>Time Allotted:</b> 2-3 Hours</ListGroupItem>
+                <ListGroupItem><b>Complexity:</b>  Advanced</ListGroupItem>
+                <ListGroupItem><b>Language:</b>  React/Node</ListGroupItem>
+                <ListGroupItem><b>Time Allotted:</b> 1 1/2 Weeks</ListGroupItem>
             </ListGroup>
             <Card.Body className="bottom">
                 <Card.Link target="_blank" href="https://github.com/carlsachs/React-Components-Insta-Clone">Repository</Card.Link>
